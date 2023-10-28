@@ -1,0 +1,59 @@
+.form-icon {
+    color: #ffc107;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px 0 0 5px;
+    background-color: rgb(75 85 99/1);
+    border: 2px solid rgb(75 85 99/1);
+    border-right: 0px;
+    font-size: 1.3rem;
+}
+
+
+.form-control {
+    padding: 0;
+    color: aliceblue;
+    background: transparent;
+    border: 0px;
+    border-radius: 0;
+}
+
+input {
+    padding: 5px 0;
+    background: rgb(55 65 81/1);
+    border: 2px solid rgb(75 85 99/1);
+    border-left: 0px;
+    border-radius: 0 5px 5px 0;
+    color: aliceblue;
+}
+
+textarea.form-control {
+    color: aliceblue;
+    background: rgb(55 65 81/1);
+    border: 2px solid rgb(75 85 99/1);
+    border-radius: 5px;
+}
+
+input:focus-visible,
+input:focus {
+    outline: 0;
+    background: rgb(55 65 81/1);
+}
+
+textarea.form-control:focus-visible,
+textarea.form-control:focus {
+    background: rgb(55 65 81/1);
+    border: 2px solid rgb(75 85 99/1);
+    box-shadow: none;
+    color: aliceblue;
+}
+
+.link-icon {
+    width: 40px;
+    height: 40px;
+    transition: 0.4s;
+}
+
+.link-icon:hover {
+    transform: scale(1.15);
+}
