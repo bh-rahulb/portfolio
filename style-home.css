@@ -1,0 +1,656 @@
+.carousel-item {
+    height: 660px;
+    background-color: #f1f1f1;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    margin: 0 5px;
+    background-color: #c22;
+}
+
+.carousel-indicators [data-bs-target]:hover {
+    opacity: 1
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    width: 8%;
+}
+
+.control-icon {
+    background: #ffffff50;
+    color: #222;
+    font-size: 15px;
+    width: 2.5rem;
+    height: 2.5rem;
+    padding: 8px;
+}
+
+.control-icon:hover {
+    background: #222;
+    color: #fff;
+}
+
+.carousel-img {
+    top: -20px;
+}
+
+.img-left {
+    left: 20px;
+}
+
+.carousel-text {
+    max-width: 50rem;
+    top: 100px;
+}
+
+.text-right {
+    right: 40px;
+}
+
+.img-right {
+    max-width: 40rem;
+    right: -100px;
+}
+
+.text-left {
+    left: 40px;
+}
+
+.hr {
+    height: 1px;
+    width: 5rem
+}
+
+.carousel-text .category {
+    font-size: 1.7vw;
+}
+
+.carousel-text h1 {
+    font-size: 7vw;
+    margin: 2rem 0;
+}
+
+.carousel-text p {
+    font-size: 1.2vw;
+}
+
+.box {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.categories .box:hover {
+    transform: scale(1.06);
+}
+
+.cat-height {
+    height: 625px;
+}
+
+.women-cat,
+.men-cat {
+    height: 560px;
+}
+
+.boy-cat,
+.girl-cat {
+    height: 270px;
+}
+
+.box-boy,
+.box-girl {
+    left: 33.2%;
+}
+
+.box-girl {
+    bottom: 0;
+}
+
+.box-women {
+    left: 0;
+}
+
+.box-men {
+    right: 0;
+}
+
+.top-88 {
+    top: 88%;
+}
+
+/* owl-carousel start */
+
+.carousel-wrap {
+    width: 100%;
+    position: relative;
+}
+
+.owl-carousel .owl-nav {
+    overflow: hidden;
+}
+
+.owl-carousel .nav-btn {
+    height: 3rem;
+    position: absolute;
+    width: 2.5rem;
+    cursor: pointer;
+    top: 45%;
+    font-size: 25px;
+    color: #00000070;
+}
+
+.owl-carousel .nav-btn:hover {
+    color: #00000095;
+}
+
+.owl-carousel .owl-prev.disabled,
+.owl-carousel .owl-next.disabled {
+    pointer-events: none;
+    opacity: 0;
+}
+
+.owl-carousel .prev-slide,
+.owl-carousel .next-slide {
+    background: rgba(255, 255, 255, 0.85);
+}
+
+.owl-carousel .prev-slide {
+    left: 0;
+}
+
+.owl-carousel .next-slide {
+    right: 0;
+}
+
+.owl-carousel .prev-slide:hover {
+    background-position: 0px -53px;
+}
+
+.owl-carousel .next-slide:hover {
+    background-position: -24px -53px;
+}
+
+.owl-dots {
+    display: none;
+}
+
+/* owl-carousel end */
+
+.owl-carousel .image {
+    height: 22rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 0.4s;
+}
+
+.flash {
+    top: 10px;
+    left: 10px;
+}
+
+.hot-flash {
+    top: 45px;
+    left: 10px;
+}
+
+.link-btns {
+    bottom: 15px;
+    visibility: hidden;
+    transition: 0.4s;
+    opacity: 0;
+}
+
+.owl-carousel .box:hover .link-btns {
+    bottom: 25px;
+    visibility: visible;
+    opacity: 1;
+}
+
+.pick-btn {
+    background-color: #fff;
+    border-radius: 2px;
+    width: 2.2rem;
+    height: 2.2rem;
+    font-size: 18px;
+}
+
+.pick-btn:hover {
+    background-color: #222;
+    color: #fff;
+}
+
+.pick-1 {
+    background-image: url(images/Picks/img-1a.jpg);
+}
+
+.pick-1:hover {
+    background-image: url(images/Picks/img-1b.jpg);
+}
+
+.pick-2 {
+    background-image: url(images/Picks/img-2a.jpg);
+}
+
+.pick-2:hover {
+    background-image: url(images/Picks/img-2b.jpg);
+}
+
+.pick-3 {
+    background-image: url(images/Picks/img-3a.jpg);
+}
+
+.pick-3:hover {
+    background-image: url(images/Picks/img-3b.jpg);
+}
+
+.pick-4 {
+    background-image: url(images/Picks/img-4a.jpg);
+}
+
+.pick-4:hover {
+    background-image: url(images/Picks/img-4b.jpg);
+}
+
+.pick-5 {
+    background-image: url(images/Picks/img-5a.jpg);
+}
+
+.pick-5:hover {
+    background-image: url(images/Picks/img-5b.jpg);
+}
+
+.pick-6 {
+    background-image: url(images/Picks/img-6a.jpg);
+}
+
+.pick-6:hover {
+    background-image: url(images/Picks/img-6b.jpg);
+}
+
+.pick-7 {
+    background-image: url(images/Picks/img-7a.jpg);
+}
+
+.pick-7:hover {
+    background-image: url(images/Picks/img-7b.jpg);
+}
+
+.pick-8 {
+    background-image: url(images/Picks/img-8a.jpg);
+}
+
+.pick-8:hover {
+    background-image: url(images/Picks/img-8b.jpg);
+}
+
+.pick-color {
+    padding: 6px;
+}
+
+.link-cat-type {
+    color: #777
+}
+
+.link-cat-type:hover {
+    color: #7a7a7a
+}
+
+.link-product {
+    color: #222;
+}
+
+.link-product:hover {
+    color: #222;
+    text-decoration: underline;
+}
+
+.price-rating {
+    height: 24px;
+    overflow: hidden;
+}
+
+.product-price {
+    transition: 0.4s;
+}
+
+.owl-carousel .box:hover .product-price {
+    margin-top: -24px;
+}
+
+.deal-of-day {
+    background-image: url(Images/deal-day-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.deal-of-day h1 {
+    font-size: 50px;
+}
+
+.countdown .box {
+    width: 70px;
+    height: 70px;
+    border-radius: 5px;
+}
+
+.tablinks2:hover {
+    color: #222;
+}
+
+.featured .active span {
+    border-bottom: 1px solid #000;
+    color: #222
+}
+
+.lookbook h2 {
+    font-size: 60px;
+}
+
+.video-lookbook {
+
+    object-fit: cover;
+    z-index: -1;
+    background-size: cover;
+    opacity: 1;
+    width: 100%;
+    height: 500px;
+}
+
+.bg-lookbook {
+    background-image: url(images/revslide-lookbook.jpg);
+    background-position: top left;
+    z-index: 1;
+}
+
+.play-btn {
+    z-index: 9;
+    top: 40%;
+}
+
+.play-inner {
+    width: 100px;
+    height: 100px;
+}
+
+.play-btn-anime {
+    animation: playbtnanimation 1s linear infinite;
+    width: 100px;
+    height: 100px;
+    top: -1px;
+    left: -1px;
+    border: 1px solid rgba(204, 51, 51, 0.4);
+    opacity: 0;
+}
+
+@keyframes playbtnanimation {
+    0% {
+        width: 100px;
+        height: 100px;
+        opacity: 0;
+        top: -1px;
+        left: -1px;
+    }
+
+
+    20% {
+        width: 110px;
+        height: 110px;
+        opacity: 1;
+        top: -5px;
+        left: -5px;
+    }
+
+
+    40% {
+        width: 120px;
+        height: 120px;
+        opacity: 1;
+        top: -11px;
+        left: -11px;
+    }
+
+    60% {
+        width: 130px;
+        height: 130px;
+        opacity: 1;
+        top: -16px;
+        left: -16px;
+    }
+
+    80% {
+        width: 140px;
+        height: 140px;
+        opacity: 1;
+        top: -20px;
+        left: -20px;
+    }
+
+    100% {
+        width: 150px;
+        height: 150px;
+        opacity: 0;
+        top: -25px;
+        left: -25px;
+    }
+}
+
+.blog-type {
+    width: 2.5rem;
+    height: 2.5rem;
+    top: 10px;
+    right: 10px;
+    z-index: 99;
+}
+
+.author {
+    color: #777;
+}
+
+.author:hover {
+    color: #777;
+    text-decoration: underline;
+}
+
+.blog-play {
+    width: 3.5rem;
+    height: 3.5rem;
+    background-color: #00000095;
+}
+
+.blog-video img {
+    transition: 0.4s;
+}
+
+.blog-video:hover img {
+    transform: scale(1.1);
+}
+
+.video-blog {
+    z-index: -1;
+}
+
+.newsletter {
+    background: url(images/newsletter-bg.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.newsletter input:focus-visible {
+    outline: 0;
+}
+
+.brand-img {
+    opacity: 0.5;
+    transition: 0.4s;
+}
+
+.brand-link:hover .brand-img {
+    opacity: 1;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 992px) {
+
+    .carousel-item {
+        height: 450px;
+    }
+
+    .img-left {
+        left: 0;
+    }
+
+    .text-right {
+        right: 40px;
+    }
+
+    .carousel-text {
+        top: 75px;
+    }
+
+    .img-right {
+        right: -115px;
+        max-width: 38rem;
+        top: -40px;
+    }
+
+    .text-left {
+        left: 40px;
+    }
+
+    .carousel-text .category {
+        font-size: 2vw;
+    }
+
+    .carousel-text h1 {
+        font-size: 6vw;
+        margin: 1.5rem 0;
+    }
+
+    .carousel-text p {
+        font-size: 1.6vw;
+    }
+
+    .women-cat,
+    .men-cat,
+    .boy-cat,
+    .girl-cat {
+        height: 270px;
+    }
+
+    .box-boy {
+        left: 50%;
+    }
+
+    .box-girl {
+        left: 0;
+        bottom: 0;
+    }
+
+    .box-men {
+        bottom: 0;
+        right: 0;
+    }
+
+    .deal-of-day h1 {
+        font-size: 40px;
+    }
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+    .carousel-item {
+        height: 305px;
+    }
+
+    .img-left {
+        left: -68px;
+    }
+
+    .text-right {
+        right: 15px;
+    }
+
+    .carousel-text {
+        top: 60px;
+    }
+
+    .img-right {
+        right: -85px;
+        max-width: 25rem;
+        top: -45px;
+    }
+
+    .text-left {
+        left: 15px;
+    }
+
+    .carousel-text .category {
+        font-size: 2.5vw;
+    }
+
+    .carousel-text h1 {
+        font-size: 6vw;
+        margin: 0.5rem 0;
+    }
+
+    .carousel-text p {
+        font-size: 2vw;
+    }
+
+    .carousel-text .btn-shop {
+        font-size: 10px;
+    }
+
+    .cat-height {
+        height: 1190px;
+    }
+
+    .box-boy {
+        left: 0;
+        top: 286px
+    }
+
+    .box-girl {
+        left: 0;
+        bottom: 286px;
+    }
+
+    .box-men {
+        bottom: 0;
+    }
+
+    .deal-of-day h1 {
+        font-size: 32px;
+    }
+
+
+
+
+
+}
