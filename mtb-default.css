@@ -1,0 +1,307 @@
+body {
+	font-family: 'Hind', sans-serif;
+	color: #777777;
+	overflow-x: hidden;
+	font-size: 17px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: 700;
+	font-family: 'Roboto', sans-serif;
+}
+a:focus{
+	color:#fff;
+}
+.top-nav {
+	font-size: 14px;
+}
+
+.overlay1 {
+	background: #00000050;
+	width: 100%;
+	height: 100%;
+	transition: 0.4s;
+}
+
+.top-nav a {
+	text-decoration: none;
+}
+
+.top-nav .icon {
+	background: #ffffff40;
+	border-radius: 50%;
+	height: 25px;
+	width: 25px;
+	justify-content: center;
+	align-items: center;
+}
+
+.top-nav .contact-icon {
+	color: #fff;
+}
+
+.top-nav .contact-icon:hover {
+	color: #FCBF1E;
+}
+
+.border-f30 {
+	border-color: #ffffff30 !important;
+}
+
+.btn-orr {
+	border-radius: 1.5rem;
+	color: #fff;
+	padding: 0.6rem 2rem;
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.btn-orr:hover {
+	color: #ffc720;
+	background-color: #fff;
+	border-color: #fff;
+}
+
+.logo-img {
+	width: 25%;
+}
+
+.nav-link {
+	color: #fff;
+	opacity:0.7;
+}
+
+.nav-link:hover {
+	color: #fff;
+	opacity:1;
+	border-bottom: 2px solid #FCBF1E;
+}
+
+.main-nav {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 99;
+}
+.dropdown-menu {
+	background: #21284B;
+}
+.dropdown-item{
+	color: #fff;
+	opacity:0.7;
+}
+.dropdown-item.active, .dropdown-item:active {
+    color: #fff;
+	opacity:1;
+    text-decoration: none;
+    background-color: #21284B;
+}
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #fff;
+	opacity:1;
+    background-color: #21284B;
+}
+
+.dropdown:hover .dropdown-menu {
+	display: block;
+}
+
+.main-nav .btn-orr {
+	padding: 0.4rem 1.5rem;
+}
+
+.main-nav .btn-orr:hover {
+	color: #fff;
+	background-color: #0000003d;
+	border-color: #0000003d;
+}
+
+.about2-head {
+	font-size: 3.3rem;
+}
+
+.footer {
+	background: url("images/bg-footer.jpg") no-repeat center;
+	background-size: cover;
+}
+
+.overlay4 {
+	width: 100%;
+	height: 100%;
+	background-image: linear-gradient(180deg, #05222fed 10%, #0A102B 85%);
+}
+
+.main-links {
+	list-style: square;
+}
+
+.main-links a {
+	color: #777777;
+	text-decoration:none;
+}
+
+.main-links a:hover {
+	color: #FCBF1E;
+}
+
+.contact-icon {
+	color: #FCBF1E;
+}
+
+.contact-icon:hover {
+	color: #777777;
+}
+
+.gallery-box {
+	height: 7rem;
+	overflow: hidden;
+}
+
+.gallery .img1 {
+	background: url("images/display4-i.jpg") no-repeat center;
+	background-size: cover;
+	height: 100%;
+}
+
+.gallery .img2 {
+	background: url("images/display3-i.jpg") no-repeat center;
+	background-size: cover;
+	height: 100%;
+}
+
+.gallery .img3 {
+	background: url("images/display2-i.jpg") no-repeat center;
+	background-size: cover;
+	height: 100%;
+}
+
+.gallery .img4 {
+	background: url("images/display1-i.jpg") no-repeat center;
+	background-size: cover;
+	height: 100%;
+}
+
+.gallery .img5 {
+	background: url("images/popup-imgn.png") no-repeat center;
+	background-size: cover;
+	height: 100%;
+}
+
+.gallery .img6 {
+	background: url("images/display9-i.jpg") no-repeat center;
+	background-size: cover;
+	height: 100%;
+}
+
+.gallery-img {
+	transition: 0.4s;
+}
+
+.gallery-img:hover {
+	transform: scale(1.08);
+}
+
+.gallery-img:hover .overlay1 {
+	background: #00000075;
+}
+
+.powered {
+	position: absolute;
+	left: 15px;
+	bottom: 40px;
+}
+
+.whatsapp {
+	position: fixed;
+	right: 10px;
+	bottom: 10px;
+	padding: 4px 8px;
+	background: #25D366;
+	border-radius: 6px;
+	z-index: 99;
+}
+
+.whatsapp i {
+	font-size: 40px;
+	color: #fff;
+}
+
+.overlay5 {
+	width: 100%;
+	height: 100%;
+	background-image: linear-gradient(180deg, #05222fc4 10%, #0a102b 85%);
+}
+
+
+
+
+
+@media only screen and (max-width: 1030px) {
+	.top-nav {
+		display: none;
+	}
+}
+
+
+@media only screen and (max-width: 992px) {
+	
+
+	.logo-img {
+		width: 40%;
+	}
+
+	.main-nav .btn-orr {
+		display: none;
+	}
+
+	.nav-collapse {
+		margin-left: 500px;
+	}
+
+	.nav-collapse {
+		text-align: right;
+		background: #21284B;
+	}
+
+	.navbar-nav .nav-link {
+		padding-right: 35px;
+		padding-left: 0;
+	}
+
+	.gallery-box {
+		height: 8rem;
+	}
+
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+	.logo-img {
+		width: 50%;
+	}
+
+	.nav-collapse {
+		margin-left: 260px;
+	}
+
+	.gallery-box {
+		height: 15rem;
+	}
+
+	.powered {
+		bottom: 100px;
+	}
+
+	.foot-credit {
+		padding-top: 3rem;
+	}
+
+
+}
