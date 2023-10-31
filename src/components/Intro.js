@@ -3,7 +3,7 @@ import { Container, Row, Col } from 'react-bootstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMessage } from '@fortawesome/free-regular-svg-icons'
 import { Link } from 'react-scroll'
-import profilImg from '../assets/images/rahul.png'
+import profileImg from '../assets/images/rahul.png'
 import Typewriter from 'typewriter-effect'
 
 function Intro() {
