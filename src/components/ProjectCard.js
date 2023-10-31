@@ -32,10 +32,10 @@ function ProjectCard(props) {
                 <div className='m-2 position-relative border border-warning rounded overflow-hidden'>
                     <Card.Img variant="top" src={props.src} />
                     <span className="card-icons d-flex position-absolute z-2">
-                        <a href={props.livesrc} className="d-flex justify-content-center align-items-center btn btn-outline-warning rounded-circle fs-5 card-link" target='_blank' rel="noreferrer">
+                        <a href={props.livesrc} className="d-flex justify-content-center align-items-center btn btn-outline-warning rounded-circle fs-5 card-link" target='_blank' rel="noopener noreferrer">
                             <FontAwesomeIcon icon={faLink} />
                         </a>
-                        <a href={props.githubsrc} className="d-flex justify-content-center align-items-center btn btn-outline-warning rounded-circle fs-4 card-link ms-2" target='_blank' rel="noreferrer">
+                        <a href={props.githubsrc} className="d-flex justify-content-center align-items-center btn btn-outline-warning rounded-circle fs-4 card-link ms-2" target='_blank' rel="noopener noreferrer">
                             <FontAwesomeIcon icon={faGithub} />
                         </a>
                     </span>

@@ -11,8 +11,8 @@ function Intro() {
         <section id='Intro'>
             <Container>
                 <Row>
-                    <Col sm={12} md={8} lg={6} className='py-5 my-4'>
-                        <div className='py-5 my-4'>
+                    <Col sm={12} md={8} lg={6} className='pt-5 pb-md-0 pb-lg-5 my-4' data-aos="zoom-in">
+                        <div className='pt-5 pb-md-0 pb-lg-5 my-4'>
                             <p className='fs-4 mb-1'>Hello,</p>
                             <h2 className='fs-1 m-0'>I'm <span className='text-warning'>Rahul</span></h2>
                             <h1 className="display-3 fw-medium text-warning d-flex my-2">
@@ -25,7 +25,7 @@ function Intro() {
                             <Link to="Contact" spy={true} duration={800} className='btn btn-outline-warning fw-medium fs-6' data-aos="fade-up"><FontAwesomeIcon className="me-2" icon={faMessage} beat />Contact</Link>
                         </div>
                     </Col>
-                    <Col sm={12} md={8} lg={6} className='py-5 my-4 d-flex d-sm-none justify-content-center align-items-center'>
+                    <Col sm={12} md={8} lg={6} className='py-5 my-4 m-md-auto d-flex justify-content-center align-items-center' data-aos="zoom-in">
                         <img src={profileImg} width={350} alt='Rahul profile' className='rounded-circle' style={{ boxShadow: "4px 10px 10px -8px" }} />
                     </Col>
                 </Row>
