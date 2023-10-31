@@ -3,6 +3,7 @@ import { Container, Row, Col } from 'react-bootstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMessage } from '@fortawesome/free-regular-svg-icons'
 import { Link } from 'react-scroll'
+import profilImg from '../assets/images/rahul.png'
 import Typewriter from 'typewriter-effect'
 
 function Intro() {
@@ -23,6 +24,9 @@ function Intro() {
                             </p>
                             <Link to="Contact" spy={true} duration={800} className='btn btn-outline-warning fw-medium fs-6' data-aos="fade-up"><FontAwesomeIcon className="me-2" icon={faMessage} beat />Contact</Link>
                         </div>
+                    </Col>
+                    <Col sm={12} md={8} lg={6} className='py-5 my-4 d-flex d-sm-none justify-content-center align-items-center'>
+                        <img src={profileImg} width={350} alt='Rahul profile' className='rounded-circle' style={{ boxShadow: "4px 10px 10px -8px" }} />
                     </Col>
                 </Row>
             </Container>
