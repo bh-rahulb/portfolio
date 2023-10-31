@@ -20,7 +20,7 @@ function NavigationBar() {
         <header className='py-2 position-sticky top-0 z-3'>
             <Container>
                 <Nav>
-                    <a className='header-logo' href="https://bh-rahul.wep.app/">
+                    <a className='header-logo' href="bh-rahul.wep.app">
                         <Image src={logoImg} />
                     </a>
                     <div className="d-none d-md-flex align-items-center gap-3 fw-medium">
