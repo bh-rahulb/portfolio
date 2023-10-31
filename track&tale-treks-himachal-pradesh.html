@@ -1,0 +1,1315 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Track & Tale - Create Your Own Stories</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+		<style>
+		body{
+			margin:0 auto;
+		}
+			#wrapper{
+				width:100%;
+				float:left;
+			}
+			#header{
+				width:100%;
+				float:left;
+				height:471px;
+				background-image:url("images/roopkund_trek.jpg");
+				background-repeat:no-repeat;
+				background-size:cover;
+			}
+			.black{
+				float:left;
+				background-color:#00000070;
+				width:100%;
+			}
+			.top{
+				float:left;
+				width:100%;
+				background-color:#0000005e;
+				margin-top:-10px;
+			}
+			.top-contact{
+				width:85%;
+				margin:auto;
+				height:20px;
+			}
+			.contact{
+				float:right;
+				width:41%;
+				color:white;
+				font-family:arial;
+			}
+			.contact ul li{
+				list-style:none;
+				display:inline-flex;
+				padding-left:10px;
+			}
+			.contact ul li a{
+				text-decoration:none;
+				color:white;
+			}
+			.contact .fas{
+				padding-right:5px;
+				color:#CC4D4D;
+			}
+			.contact .fab{
+				padding-right:5px;
+				color:#CC4D4D;
+			}
+			.head{
+				float:left;
+				width:100%;
+				margin-top:-30px;
+			}
+			.head1{
+				width:85%;
+				margin:auto;
+			}
+			.logo{
+				float:left;
+				width:30%;
+			}
+			.logoinner{
+				width:75%;
+				
+			}
+			.logo-i{
+				width:50%;
+			}
+			.menu{
+				float:right;
+				width:59%;
+				font-family:arial;
+			}
+			.menulist{
+				float:right;
+				margin:36px -50px 0px 0px;
+			}
+			.menulist .fas{
+				font-size:23px;
+				color:#CC4D4D;
+			}
+			ul.pages {
+    list-style: none;
+    display: inline-flex;
+	width:100%;
+}
+ul.pages li{
+	padding:0px 15px 0px 0px;
+}
+ul.pages li a{
+	text-decoration:none;
+	color:white;
+}
+ul.pages li a:hover{
+	color:#CC4D4D;
+}
+ul.submenu {
+    display: none;
+    list-style: none;
+	position:absolute;
+	background-color:#2c3640;
+	padding:30px  20px 8px 20px;
+	
+}
+ul.submenu li {
+    padding: 5px 0px;
+    width: 168px;
+    line-height: 22px;
+}
+ul.submenu li a{
+	color:#8d8895;
+}
+li.dropdown{
+	position:relative;
+}
+li.dropdown:hover .submenu{
+	display:block;
+}
+			.headermain{
+				width:100%;
+				float:left;
+				margin:75px 0px;
+			}
+			.main{
+				width:85%;
+				margin:auto;
+				color:white;
+				font-family:verdana;
+			}
+			.maina{
+				font-size:40px;
+			}
+			.mainb{
+				font-size:22px;
+				margin:0px 0px;
+			}
+			.mainc{
+				font-size:17px;
+				padding-top:26px;
+			}
+			.mainc a{
+				text-decoration:none;
+				color:white;
+			}
+			.section{
+				width:100%;
+				float:left;
+			}
+			.section1{
+				width:100%;
+				float:left;
+			}
+			.s1-all{
+				width:90%;
+				margin:auto;
+			}
+			.s1-main-all{
+				float:left;
+				width:68%;
+				margin-top: 38px;
+			}
+			.s1-main{
+				margin:auto;
+				width:95%;
+				color:#1f2933;
+				font-family:arial;
+				font-size:20px;
+			}
+			.s1-main p{
+				line-height:24px;
+				font-size:14px;
+			}
+			.s1-img-all{
+				float:right;
+				width:28%;
+				background-color:white;
+				position: absolute;
+				margin: -146px 0px 0 824px;
+			}
+			.s1-img{
+				margin:9px;
+				width:95%;
+				color:white;
+				font-size:16px;
+				font-family:arial;
+				text-align:center;
+				background-color:#474d4b;
+				padding-bottom:30px;
+			}
+			.img-i img{
+				width:58%;
+				margin-top:10px;
+			}
+			.img-text p{
+				margin:-12px 0px;
+			}
+			.section2{
+				width:100%;
+				float:left;
+				background-color:#f5f7fa;
+				margin-top:38px;
+			}
+			.s2-all{
+				width:87%;
+				margin:auto;
+			}
+			.s2-head{
+				width:70%;
+				margin:auto;
+				text-align:center;
+				color:#1f2933;
+				font-family:arial;
+				font-size:20px;
+				margin-top:50px;
+			}
+			.s2-inner{
+				background-color:white;
+				width:100%;
+				float:left;
+				height:300px;
+				margin:16px 0px;
+			}
+			.s2-main{
+				width:100%;
+				margin:auto;
+			}
+			.s2-main-img{
+				width:30%;
+				float:left;
+			}
+			.s2-main-description{
+				width:70%;
+				float:right;
+				color:#1f2933;
+				font-family:arial;
+			}
+			.s2-img{
+				overflow:hidden;
+				width: 95%;
+				margin: 10px;
+			}
+			.s2-img img {
+				width:100%;
+				background-size:cover;
+				background-repeat:no-repeat;
+				transition: transform .2s;				
+			}
+			.s2-img img:hover{
+				transform: scale(1.1);
+			}
+			.s2-d-main {
+				width: 65%;
+				margin: 10px;
+				float: left;
+				font-family:arial;
+			}
+			.s2-d-head h2 {
+				margin-top: 10px;
+			}
+			.s2-price {
+				float: right;
+				width: 25%;
+				margin: 10px;
+				text-align:center;
+				border-left: 1px solid #00000025;
+			}
+			.s2-d-main h2 a{
+				text-decoration:none;
+				color:#1f2933;				
+			}
+			.s2-d-main h2 a:hover{
+				color:#CC4D4D;
+			}
+			.day-info {
+				width: 20%;
+				font-weight: bold;
+				border-left: 1px solid #0000005e;
+				padding-left: 15px;
+				margin-top: -18px;
+			}
+			.s2-d-main p {
+				line-height: 22px;
+				font-size: 14px;
+			}
+			.review{
+				float:left;
+				width:100%
+			}
+			.rating{
+				float:left;
+				width:25%;
+			}
+			.rating i{
+				font-size:17px;
+				color:#1f293399;
+			}
+			.rating-base{
+				float:right;
+				width:75%;
+			}
+			.share-save i{
+				font-size:24px;
+				color:#1f293399;
+				padding:10px 15px;
+			}
+			.sep{
+				font-size:28px;
+				color:#00000025;
+			}
+			.s2-price p{
+				font-size:15px;
+				margin:5px 0px;
+			}
+			.s2-price h1{
+				color:#CC4D4D;
+				margin: 0px;
+			}
+			.s2-price-img {
+				width: 65%;
+				margin: auto;
+				margin-top: 20px;
+			}
+			.s2-price-img img{
+				width:60%;
+			}			
+			button.explore {
+				border: none;
+				background-color: #252525;
+				color: white;
+				font-size: 18px;
+				padding: 12px 37px;
+				border-radius: 3px;
+				margin-top:20px;
+			}
+			button.explore:hover{
+				background-color:#CC4D4D;
+			}
+			.section3{
+				float:left;
+				width:100%;
+			}
+			.s3-all{
+				float:left;
+				width:100%;
+			}
+			.s3-head{
+				width:70%;
+				margin:auto;
+				text-align:center;
+				color:#1f2933;
+				font-family:arial;
+				font-size:20px;
+				margin-top:50px;
+			}
+			.s3-main{
+				width:90%;
+				margin:auto;
+			}
+			.s3-main1{
+				width:33%;
+				float:left;
+			}
+			.s3-main2{
+				width:34%;
+				float:left;
+			}
+			.s3-main3{
+				width:33%;
+				float:right;
+			}
+			.s3-main-inner{
+				background-color:#f5f7fa;
+				width:95%;
+				margin:auto;
+				color:#1f2933;
+				font-family:arial;
+				height: 400px;
+			}
+			.s3-main-head {
+				margin:15px;
+			}
+			.s3-main-head h4{
+				margin:0px;
+				padding-top:15px;
+			}
+			.s3-main-head h4 a{
+				text-decoration:none;
+				color:#1f2933;
+			}
+			.s3-main-head h4 a:hover{
+				color:#CC4D4D;
+			}
+			.s3-main-head p{
+				font-size:14px;
+				margin:5px 0px;
+			}
+			.s3-main-head p a{
+				text-decoration:none;
+				color:#1f2933a6;
+				padding-right:2px;
+			}
+			.s3-main-head p a:hover{
+				color:#CC4D4D;
+			}
+			.s3-main-img img{
+				width:100%;
+			}
+			.s3-main-foot{
+				float:left;
+				width:100%;
+			}
+			.s3-main-foot1{
+				width:20%;
+				float:left;
+				margin:8px 10px;
+			}
+			.s3-main-foot1 i{
+				font-size:20px;
+				padding:5px;
+			}
+			.s3-main-foot2{
+				width:35%;
+				float:right;
+			}
+			.s3-main-foot2 p{
+				margin:15px 0px 4px 12px;
+				font-size:14px;
+				font-weight:bold;
+			}
+			.s3-main-foot2 h3{
+				border-left:1px solid #00000085;
+				padding-left:10px;
+				margin:0px 0px;
+				color:#CC4D4D;
+			}
+			
+			
+			.footer{
+				float: left;
+				width: 100%;
+				background-color: #1f2933;
+				margin-top: 38px;
+			}
+			.foot-all {
+				width: 90%;
+				margin: auto;
+				color:#cdd1d5;
+				font-family:arial;
+				margin-top:40px;
+			}
+			.foot-all h2{
+				color:white;
+			}
+			img.f-logo-i {
+				width: 54%;
+			}
+			.foot1 {
+				width: 25%;
+				float: left;
+			}
+			.foot2 {
+				width: 25%;
+				float: left;
+			}
+			.foot3 {
+				width: 25%;
+				float: left;
+			}
+			.foot4 {
+				width: 25%;
+				float: right;
+			}
+			.foot-inner{
+				width:88%;
+				margin:auto;
+			}
+			.foot2 li {
+				list-style: none;
+				margin-bottom: 10px;
+			}
+			.foot3 li {
+				list-style: none;
+				margin-bottom: 12px;
+			}
+			.foot3 li a {
+				text-decoration:none;
+				color:white;
+				color:#cdd1d5;
+			}
+			.foot3 li a:hover{
+				color:#354656;
+			}
+			.bt-inner img{
+				width:100%;
+			}
+			.best-tour {
+				width: 100%;
+				float: left;
+			}
+			.b-t1 {
+				width: 100%;
+				float: left;
+				margin-bottom: 20px;
+			}
+			.bt-inner1 {
+				width: 50%;
+				float: left;
+			}
+			.bt-inner2 {
+				width: 50%;
+				float: right;
+			}
+			.b-t2 {
+				width: 100%;
+				float: left;
+			}
+			.bt-inner {
+				width: 90%;
+			}
+			.social-icons {
+				float: right;
+				width: 100%;
+				margin: 112px -60px 0px 0px;
+				font-size: 32px;
+			}
+			.social-icons i {
+				padding-left: 30px;
+			}
+			.social-icons a{
+				color:white;
+			}
+			.social-icons a:hover{
+				color:#CC4D4D;
+			}
+			.foot-credit {
+				float: left;
+				width: 100%;
+				background-color: #323f4b;
+				font-family:arial;
+				color:#cdd1d5;
+				margin-top: 30px;
+				padding: 10px 0px;
+			}
+			.fcredit {
+				margin: auto;
+				width: 90%;
+			}
+			.credit {
+				float: left;
+				width: 40%;
+			}
+			.pages {
+				float: right;
+				width: 60%;
+			}
+			.pages a{
+				text-decoration:none;
+				color:#cdd1d5;
+			}
+			.pages a:hover{
+				color:#CC4D4D;
+			}
+			</style>
+	</head>
+	<body>
+		<div id="wrapper">
+			<div id="header">
+				<div class="black">
+					<div class="top">
+						<div class="top-contact">
+							<div class="contact">
+								<ul>
+									<li><i class="fab fa-whatsapp"></i> 9643420528</li>
+									<li><i class="fas fa-phone-alt"></i> 8627061105</li>
+									<li><i class="fas fa-envelope"></i> info@trackntale.com</li>
+								</ul>
+							</div>
+						</div>
+						<div class="head">
+							<div class="head1">
+								<div class="logo">
+									<div class="logoinner">
+										<a href="file:///E:/Rahul/Track-&-Tale/track&tale.html"><img class="logo-i" src="images/logo-i.png"/></a>
+									</div>
+								</div>
+								<div class="menu">
+									<div class="menulist">
+										<ul class="pages">
+											<li><a href="/E:/Rahul/Track-&-Tale/track&tale.html"><i class="fas fa-home"></i></a></li>
+											<li class="dropdown"><a href="#">DESTINATION</a>
+												<ul class="submenu">
+													<li><a href="#">HIMACHAL</a></li>
+													<li><a href="#">UTTRAKHAND</a></li>
+													<li><a href="#">RAJASTHAN</a></li>
+													<li><a href="#">KERALA</a></li>
+													<li><a href="#">ANDAMAN AND NICOBAR</a></li>
+													<li><a href="#">NORTH EAST</a></li>
+													<li><a href="#">KARNATKA</a></li>
+													<li><a href="#">KASHMIR</a></li>
+													<li><a href="#">LEH LADAKH</a></li>
+													<li><a href="#">SPITI</a></li>
+												</ul>
+											</li>
+											<li><a href="#">WEEKEND TRIPS</a></li>
+											<li class="dropdown"><a href="#">BIKE TRIPS</a>
+												<ul class="submenu">
+													<li><a href="#">LEH LADAKH</a></li>
+													<li><a href="#">RAJASTHAN RIDE</a></li>
+													<li><a href="#">SPITI VALLEY</a></li>
+												</ul>
+											</li>
+											<li class="dropdown"><a href="#">TREKS</a>
+												<ul class="submenu">
+													<li><a href="file:///E:/Rahul/Track-&-Tale/track&tale-treks-himachal-pradesh.html">HIMACHAL TREKS</a></li>
+													<li><a href="#">UTTRAKHAND TREKS</a></li>
+												</ul>
+											</li>
+											<li><a href="#">YATRA</a></li>
+											<li><a href="#">OUR TALES</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="headermain">
+						<div class="main">
+							<h1 class="maina">Popular Treks Stations</h1>
+							<p class="mainb">Wonderful views and the beautiful weather,</p>
+							<p class="mainc"><a href="#">HOME</a> /<a href="#">TREKS</a>/HIMACHAL TREKS</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="section">
+				<div class="section1">
+					<div class="s1-all">
+						<div class="s1-main-all">
+							<div class="s1-main">
+								<h1>Major attractive Treks</h1>
+								<p>Himachal Pradesh is a state located in the Northern part of India. It has the maximum number of hill stations and beautiful towns with some breathtaking views of the Himalayas. When you think Himachal Pradesh, you imagine lush green hills, magnificent mountains, gushing streams, orchards ripe with fruit, snow-capped peaks and so much more. Himachal Pradesh is famous for its beautiful views as well as adventure activities, such as treks, paragliding, skiing and so much more. It is a popular holiday destination with people of all age groups, be it young friends, honeymooners, families and adventurers.</p>
+							</div>
+						</div>
+						<div class="s1-img-all">
+							<div class="s1-img">
+								<div class="img-i">
+									<img src="images/popular-trek-i.jpg"/>
+								</div>
+								<div class="img-text">
+									<h3>Best Seasons:</h3>
+									<p>All Year Round</p>
+									<h3>Popular Locations:</h3>
+									<p>Dharamshala, Dalhousie, Chamba,</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="section2">
+					<div class="s2-all">
+						<div class="s2-head">
+							<h1>Most popular hill station</h1>
+							<p>Find the Most Daring Trips</p>
+						</div>
+						<div class="s2-inner">
+							<div class="s2-main">
+								<div class="s2-main-img">
+									<div class="s2-img">
+										<img src="images/Chandratal-i.jpg"/>
+									</div>								
+								</div>
+								<div class="s2-main-description">
+									<div class="s2-d-main">
+										<div class="s2-d-head">
+											<h2><a href="#">Spiti Valley SUV Road Trip | 8 Days</a></h2>
+											<div class="day-info">
+												7 Nights & 8 Days
+											</div>
+										</div>
+										<p>Spiti Valley (pronounced as Piti in Bhoti Language) is a cold desert mountain valley located high in the Himalayas in the north-eastern part of the northern Indian state of Himachal Pradesh. The name “Spiti” means “The middle land”, i.e. the…</p>
+										<div class="review">
+											<div class="rating"><p>
+												<i class="far fa-star"></i>
+												<i class="far fa-star"></i>
+												<i class="far fa-star"></i>
+												<i class="far fa-star"></i>
+												<i class="far fa-star"></i></p>
+											</div>
+											<div class="rating-base">
+												<p>Based on 0 Review</p>
+											</div>
+										</div>
+										<div class="share-save">
+											<a href="#"><i class="fas fa-share-alt"></i></a>
+											<a href="#"><i class="fas fa-bookmark"></i></a>
+										</div>
+									</div>
+									<div class="s2-price">
+										<p>from</p>
+										<h1>₹21,000.00</h1>
+										<div class="s2-price-img">
+											<img src="images/meter.png"/>
+											<p>Challenging</p>
+											<button class="explore">Explore</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="s2-inner">
+							<div class="s2-main">
+								<div class="s2-main-img">
+									<div class="s2-img">
+										<img src="images/group-i.jpg"/>
+									</div>								
+								</div>
+								<div class="s2-main-description">
+									<div class="s2-d-main">
+										<div class="s2-d-head">
+											<h2><a href="#">Spiti Valley SUV Road Trip | 9 Days</a></h2>
+											<div class="day-info">
+												8 Nights & 9 Days
+											</div>
+										</div>
+										<p>Spiti Valley (pronounced as Piti in Bhoti Language) is a cold desert mountain valley located high in the Himalayas in the north-eastern part of the northern Indian state of Himachal Pradesh. The name “Spiti” means “The middle land”, i.e. the…</p>
+										<div class="review">
+											<div class="rating"><p>
+												<i class="far fa-star"></i>
+												<i class="far fa-star"></i>
+												<i class="far fa-star"></i>
+												<i class="far fa-star"></i>
+												<i class="far fa-star"></i></p>
+											</div>
+											<div class="rating-base">
+												<p>Based on 0 Review</p>
+											</div>
+										</div>
+										<div class="share-save">
+											<a href="#"><i class="fas fa-share-alt"></i></a>
+											<a href="#"><i class="fas fa-bookmark"></i></a>
+										</div>
+									</div>
+									<div class="s2-price">
+										<p>from</p>
+										<h1>₹26,000.00</h1>
+										<div class="s2-price-img">
+											<img src="images/meter.png"/>
+											<p>Challenging</p>
+											<button class="explore">Explore</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="s2-inner">
+							<div class="s2-main">
+								<div class="s2-main-img">
+									<div class="s2-img">
+										<img src="images/Spiti-River-Kaza-i.jpg"/>
+									</div>								
+								</div>
+								<div class="s2-main-description">
+									<div class="s2-d-main">
+										<div class="s2-d-head">
+											<h2><a href="#">Spiti Valley Bike Expedition | 9 Days</a></h2>
+											<div class="day-info">
+												8 Nights & 9 Days
+											</div>
+										</div>
+										<p>Spiti Valley (pronounced as Piti in Bhoti Language) is a cold desert mountain valley located high in the Himalayas in the north-eastern part of the northern Indian state of Himachal Pradesh. The name “Spiti” means “The middle land”, i.e. the…</p>
+										<div class="review">
+											<div class="rating"><p>
+												<i class="far fa-star"></i>
+												<i class="far fa-star"></i>
+												<i class="far fa-star"></i>
+												<i class="far fa-star"></i>
+												<i class="far fa-star"></i></p>
+											</div>
+											<div class="rating-base">
+												<p>Based on 0 Review</p>
+											</div>
+										</div>
+										<div class="share-save">
+											<a href="#"><i class="fas fa-share-alt"></i></a>
+											<a href="#"><i class="fas fa-bookmark"></i></a>
+										</div>
+									</div>
+									<div class="s2-price">
+										<p>from</p>
+										<h1>₹41,500.00</h1>
+										<div class="s2-price-img">
+											<img src="images/meter.png"/>
+											<p>Challenging</p>
+											<button class="explore">Explore</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="s2-inner">
+							<div class="s2-main">
+								<div class="s2-main-img">
+									<div class="s2-img">
+										<img src="images/hampta-pass-trek-i.jpg"/>
+									</div>								
+								</div>
+								<div class="s2-main-description">
+									<div class="s2-d-main">
+										<div class="s2-d-head">
+											<h2><a href="#">Hampta Pass Trek</a></h2>
+											<div class="day-info">
+												5 Days 4 Night
+											</div>
+										</div>
+										<p>Hampta Pass Trek / Manali Drive Hampta Pass is a crossover trek where the scenery keeps changing as it starts from the lush greenery of Kullu region and ends in the arid desert of Spiti. This is an all in…</p>
+										<div class="review">
+											<div class="rating"><p>
+												<i class="far fa-star"></i>
+												<i class="far fa-star"></i>
+												<i class="far fa-star"></i>
+												<i class="far fa-star"></i>
+												<i class="far fa-star"></i></p>
+											</div>
+											<div class="rating-base">
+												<p>Based on 0 Review</p>
+											</div>
+										</div>
+										<div class="share-save">
+											<a href="#"><i class="fas fa-users"></i></a>
+											<a href="#"><i class="fas fa-wine-bottle"></i></a>
+											<span class="sep">|</span>
+											<a href="#"><i class="fas fa-share-alt"></i></a>
+											<a href="#"><i class="fas fa-bookmark"></i></a>
+										</div>
+									</div>
+									<div class="s2-price">
+										<p>from</p>
+										<h1>₹9,500.00</h1>
+										<div class="s2-price-img">
+											<img src="images/meter.png"/>
+											<p>Challenging</p>
+											<button class="explore">Explore</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="s2-inner">
+							<div class="s2-main">
+								<div class="s2-main-img">
+									<div class="s2-img">
+										<img src="images/kheer-ganga-trek-i.jpg"/>
+									</div>								
+								</div>
+								<div class="s2-main-description">
+									<div class="s2-d-main">
+										<div class="s2-d-head">
+											<h2><a href="#">Kheer Ganga Trek</a></h2>
+											<div class="day-info">
+												2 Nights & 2 Days
+											</div>
+										</div>
+										<p>Kasol/Chalal-Kheer Ganga-Tosh Trek Kheerganga trek is the most recommended one among all the treks in Parvati valley and takes you through some amazing scenery. It needs neither too much time nor any prior trekking experience which makes it perfect for…</p>
+										<div class="review">
+											<div class="rating"><p>
+												<i class="far fa-star"></i>
+												<i class="far fa-star"></i>
+												<i class="far fa-star"></i>
+												<i class="far fa-star"></i>
+												<i class="far fa-star"></i></p>
+											</div>
+											<div class="rating-base">
+												<p>Based on 0 Review</p>
+											</div>
+										</div>
+										<div class="share-save">
+											<a href="#"><i class="fas fa-users"></i></a>
+											<a href="#"><i class="fas fa-wine-bottle"></i></a>
+											<span class="sep">|</span>
+											<a href="#"><i class="fas fa-share-alt"></i></a>
+											<a href="#"><i class="fas fa-bookmark"></i></a>
+										</div>
+									</div>
+									<div class="s2-price">
+										<p>from</p>
+										<h1>₹9,500.00</h1>
+										<div class="s2-price-img">
+											<img src="images/meter.png"/>
+											<p>Challenging</p>
+											<button class="explore">Explore</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="s2-inner">
+							<div class="s2-main">
+								<div class="s2-main-img">
+									<div class="s2-img">
+										<img src="images/kasol-trek-i.jpg"/>
+									</div>								
+								</div>
+								<div class="s2-main-description">
+									<div class="s2-d-main">
+										<div class="s2-d-head">
+											<h2><a href="#">Kasol/Chalal-Kheer Ganga-Tosh Trek</a></h2>
+											<div class="day-info">
+												5 Days 4 Night
+											</div>
+										</div>
+										<p>Kasol/Chalal-Kheer Ganga-Tosh Trek Unwind in the tranquil environment of Kasol and Kheerganga, which are some of the most rejuvenating tourist destinations in Himachal Pradesh. The Kasol trip with a trek to Kheerganga and Tosh valley embarks from the capital city…</p>
+										<div class="review">
+											<div class="rating"><p>
+												<i class="far fa-star"></i>
+												<i class="far fa-star"></i>
+												<i class="far fa-star"></i>
+												<i class="far fa-star"></i>
+												<i class="far fa-star"></i></p>
+											</div>
+											<div class="rating-base">
+												<p>Based on 0 Review</p>
+											</div>
+										</div>
+										<div class="share-save">
+											<a href="#"><i class="fas fa-users"></i></a>
+											<a href="#"><i class="fas fa-wine-bottle"></i></a>
+											<span class="sep">|</span>
+											<a href="#"><i class="fas fa-share-alt"></i></a>
+											<a href="#"><i class="fas fa-bookmark"></i></a>
+										</div>
+									</div>
+									<div class="s2-price">
+										<p>from</p>
+										<h1>₹9,500.00</h1>
+										<div class="s2-price-img">
+											<img src="images/meter.png"/>
+											<p>Challenging</p>
+											<button class="explore">Explore</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="s2-inner">
+							<div class="s2-main">
+								<div class="s2-main-img">
+									<div class="s2-img">
+										<img src="images/Prashar-winter-lake-i.jpg"/>
+									</div>								
+								</div>
+								<div class="s2-main-description">
+									<div class="s2-d-main">
+										<div class="s2-d-head">
+											<h2><a href="#">Prashar Winter Lake Trek</a></h2>
+											<div class="day-info">
+												3 Days 2 Night
+											</div>
+										</div>
+										<p>Prashar Winter Lake Trek Surrounded by the Dhauladhar ranges in Kullu Valley is a blue-water lake called Prashar. Prashar Lake is a well-kept secret in the Mandi district of Himachal Pradesh. The trek follows a charming trail through a forest…</p>
+										<div class="review">
+											<div class="rating"><p>
+												<i class="far fa-star"></i>
+												<i class="far fa-star"></i>
+												<i class="far fa-star"></i>
+												<i class="far fa-star"></i>
+												<i class="far fa-star"></i></p>
+											</div>
+											<div class="rating-base">
+												<p>Based on 0 Review</p>
+											</div>
+										</div>
+										<div class="share-save">
+											<a href="#"><i class="fas fa-users"></i></a>
+											<a href="#"><i class="fas fa-wine-bottle"></i></a>
+											<span class="sep">|</span>
+											<a href="#"><i class="fas fa-share-alt"></i></a>
+											<a href="#"><i class="fas fa-bookmark"></i></a>
+										</div>
+									</div>
+									<div class="s2-price">
+										<p>from</p>
+										<h1>₹4,500.00</h1>
+										<div class="s2-price-img">
+											<img src="images/meter.png"/>
+											<p>Challenging</p>
+											<button class="explore">Explore</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="s2-inner">
+							<div class="s2-main">
+								<div class="s2-main-img">
+									<div class="s2-img">
+										<img src="images/brighu-treck-i.jpg"/>
+									</div>								
+								</div>
+								<div class="s2-main-description">
+									<div class="s2-d-main">
+										<div class="s2-d-head">
+											<h2><a href="#">Bhrigu Lake Trek</a></h2>
+											<div class="day-info">
+												4 Nights & 3 Days
+											</div>
+										</div>
+										<p>Bhrigu Lake Trek Trekking to high altitude glacial Lakes in itself is quite adventurous and manages to catch the interest of every hiker. Usually these high altitudes lakes are difficult to reach and needs days of hiking and crossing difficult terrains,…</p>
+										<div class="review">
+											<div class="rating"><p>
+												<i class="far fa-star"></i>
+												<i class="far fa-star"></i>
+												<i class="far fa-star"></i>
+												<i class="far fa-star"></i>
+												<i class="far fa-star"></i></p>
+											</div>
+											<div class="rating-base">
+												<p>Based on 0 Review</p>
+											</div>
+										</div>
+										<div class="share-save">
+											<a href="#"><i class="fas fa-users"></i></a>
+											<a href="#"><i class="fas fa-wine-bottle"></i></a>
+											<span class="sep">|</span>
+											<a href="#"><i class="fas fa-share-alt"></i></a>
+											<a href="#"><i class="fas fa-bookmark"></i></a>
+										</div>
+									</div>
+									<div class="s2-price">
+										<p>from</p>
+										<h1>₹5,000.00</h1>
+										<div class="s2-price-img">
+											<img src="images/meter.png"/>
+											<p>Challenging</p>
+											<button class="explore">Explore</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="s2-inner">
+							<div class="s2-main">
+								<div class="s2-main-img">
+									<div class="s2-img">
+										<img src="images/kareri-trek-i.png"/>
+									</div>								
+								</div>
+								<div class="s2-main-description">
+									<div class="s2-d-main">
+										<div class="s2-d-head">
+											<h2><a href="#">Kareri Lake Trek</a></h2>
+											<div class="day-info">
+												3 Nights & 2 Days
+											</div>
+										</div>
+										<p>Kareri Lake Trek Kareri Lake Trek is located at an elevation of about 2,950 meters in Kangra district of Himachal Pradesh. It is a perfect weekend getaway if you want to switch off from your monotonous routine and get close…</p>
+										<div class="review">
+											<div class="rating"><p>
+												<i class="far fa-star"></i>
+												<i class="far fa-star"></i>
+												<i class="far fa-star"></i>
+												<i class="far fa-star"></i>
+												<i class="far fa-star"></i></p>
+											</div>
+											<div class="rating-base">
+												<p>Based on 0 Review</p>
+											</div>
+										</div>
+										<div class="share-save">
+											<a href="#"><i class="fas fa-users"></i></a>
+											<span class="sep">|</span>
+											<a href="#"><i class="fas fa-share-alt"></i></a>
+											<a href="#"><i class="fas fa-bookmark"></i></a>
+										</div>
+									</div>
+									<div class="s2-price">
+										<p>from</p>
+										<h1>₹7,000.00</h1>
+										<div class="s2-price-img">
+											<img src="images/meter.png"/>
+											<p>Challenging</p>
+											<button class="explore">Explore</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="s2-inner">
+							<div class="s2-main">
+								<div class="s2-main-img">
+									<div class="s2-img">
+										<img src="images/Chadar-Trek.jpg"/>
+									</div>								
+								</div>
+								<div class="s2-main-description">
+									<div class="s2-d-main">
+										<div class="s2-d-head">
+											<h2><a href="#">Chadar Trek Frozen River</a></h2>
+											<div class="day-info">
+												8 Nights & 7 Days
+											</div>
+										</div>
+										<p>Chadar Trek Frozen River The journey starts at the mountain town of Leh. The only way to reach Leh is by flight and it is surrounded by snow giving it a complete white look. One can catch a glimpse of…</p>
+										<div class="review">
+											<div class="rating"><p>
+												<i class="far fa-star"></i>
+												<i class="far fa-star"></i>
+												<i class="far fa-star"></i>
+												<i class="far fa-star"></i>
+												<i class="far fa-star"></i></p>
+											</div>
+											<div class="rating-base">
+												<p>Based on 0 Review</p>
+											</div>
+										</div>
+										<div class="share-save">
+											<a href="#"><i class="fas fa-users"></i></a>
+											<a href="#"><i class="fas fa-wine-bottle"></i></a>
+											<span class="sep">|</span>
+											<a href="#"><i class="fas fa-share-alt"></i></a>
+											<a href="#"><i class="fas fa-bookmark"></i></a>
+										</div>
+									</div>
+									<div class="s2-price">
+										<p>from</p>
+										<h1>₹18,000.00</h1>
+										<div class="s2-price-img">
+											<img src="images/meter.png"/>
+											<p>Challenging</p>
+											<button class="explore">Explore</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="section3">
+					<div class="s3-all">
+						<div class="s3-head">
+							<h1>Recently Viewed</h1>
+						</div>
+						<div class="s3-main">
+							<div class="s3-main1">
+								<div class="s3-main-inner">
+									<div class="s3-main-head">
+										<h4><a href="#">Valley of Flowers</a></h4>
+										<p><a href="#">Treks,</a><a href="#"> Treks in Uttrakhand</a></p>
+									</div>
+									<div class="s3-main-img">
+										<img src="images/valley-i.png"/>
+									</div>
+									<div class="s3-main-foot">
+										<div class="s3-main-foot1">
+											<p><i class="fas fa-users"></i></i>
+											<i class="fas fa-wine-bottle"></i></p>
+										</div>
+										<div class="s3-main-foot2">
+											<p>7 Days 6 Night</p>
+											<h3>₹8,000.00</h3>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="s3-main2">
+								<div class="s3-main-inner">
+									<div class="s3-main-head">
+										<h4><a href="#">Classic 9 Days Sikkim Tourism</a></h4>
+										<p><a href="#">Beaches,</a><a href="#"> Destinations,</a>
+										<a href="#"> Weekend Trips,</a><a href="#"> Yatra</a></p>
+									</div>
+									<div class="s3-main-img">
+										<img src="images/Sikkim-visit-i.png"/>
+									</div>
+									<div class="s3-main-foot">
+										<div class="s3-main-foot1">
+											<p><i class="fas fa-users"></i></i>
+											<i class="fas fa-wine-bottle"></i></p>
+										</div>
+										<div class="s3-main-foot2">
+											<p>12 Days 11 Night</p>
+											<h3>₹36,000.00</h3>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="s3-main1">
+								<div class="s3-main-inner">
+									<div class="s3-main-head">
+										<h4><a href="#">Package to Leh via Turtuk | 7 Days</a></h4>
+										<p><a href="#">Bike Trips,</a><a href="#"> Destinations,</a>
+										<a href="#"> LEH LADAKH,</a><a href="#"> LEH LADAKH,</a></p>
+									</div>
+									<div class="s3-main-img">
+										<img src="images/Turtuk-travel.jpg"/>
+									</div>
+									<div class="s3-main-foot">
+										<div class="s3-main-foot1">
+											
+										</div>
+										<div class="s3-main-foot2">
+											<p>6 Night & 7 Days</p>
+											<h3>₹21,500.00</h3>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer">
+				<div class="foot-all">
+					<div class="foot1">
+						<div class="foot-inner">
+							<h2>About Us</h2>
+							<img src="images/logo-i.png" class="f-logo-i"/>
+							<p>Track & Tale is a story based travel and Tours booking company that provide different Tour Packages across the India. We provide services in Tour Travel Packages, Trekking Packages, Honeymoon Packages, Bike Trips, Weekend Trips, Char Dham Yatra and Adventure Tours Packages in affordable price. Track & Tale has covered with its diverse packages with great customers services experience that you love to travel.</p>
+						</div>
+					</div>
+					<div class="foot2">
+						<div class="foot-inner">
+							<h2>Contact</h2>
+							
+								<li><i class="fab fa-whatsapp"></i> 9643420528</li>
+								<li><i class="fas fa-phone-alt"></i> 8627061105</li>
+								<li><i class="fas fa-envelope"></i> sales@trackntale.com,<br/>info@trackntale.com</li>
+								<li><i class="fas fa-map-marker-alt"></i> Village-Chhek, post office-Jhiralri, Tehsil-Barsar, District-Hamirpur (H.P.)</li>
+							
+						</div>
+					</div>
+					<div class="foot3">
+						<div class="foot-inner">
+							<h2>Top Destinations</h2>
+							
+								<li><a href="#">Himachal</a></li>
+								<li><a href="#">Uttrakhand</a></li>
+								<li><a href="#">Rajasthan</a></li>
+								<li><a href="#">Goa</a></li>
+								<li><a href="#">Kerala</a></li>
+								<li><a href="#">Andaman And Nicobar</a></li>
+								<li><a href="#">Karnataka</a></li>
+								<li><a href="#">North East</a></li>
+								<li><a href="#">Kashmir</a></li>
+							
+						</div>
+					</div>
+					<div class="foot4">
+						<div class="foot-inner">
+							<h2>Best Tour</h2>
+							<div class="best-tour">
+								<div class="b-t1">
+									<div class="bt-inner1">
+										<div class="bt-inner">
+											<a href="#"><img src="images/Chandratal-i.jpg"/></a>
+										</div>
+									</div>
+									<div class="bt-inner2">
+										<div class="bt-inner">
+											<a href="#"><img src="images/group-i.jpg"/></a>
+										</div>
+									</div>
+								</div>
+								<div class="b-t2">
+									<div class="bt-inner1">
+										<div class="bt-inner">
+											<a href="#"><img src="images/leh-to-srinagar.jpg"/></a>
+										</div>
+									</div>
+									<div class="bt-inner2">
+										<div class="bt-inner">
+											<a href="#"><img src="images/Leh-Tour-i.jpg"/></a>
+										</div>
+									</div>
+								</div>
+								<div class="social-icons">
+									<a href="#"><i class="fab fa-facebook-f"></i></a>
+									<a href="#"><i class="fab fa-instagram"></i></a>
+									<a href="#"><i class="fab fa-youtube"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="foot-credit">
+					<div class="fcredit">
+						<div class="credit">
+							<p>2021| All rights reserved - TRACK-&-TALE</p>
+						</div>
+						<div class="pages">
+							<p>
+								<a href="#">About Us |</a>
+								<a href="#">Privacy Policy |</a>
+								<a href="#">Terms & Conditions |</a>
+								<a href="#">Refund & Cancellation Policy |</a>
+								<a href="#">Disclaimer</a>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

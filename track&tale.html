@@ -1,0 +1,1738 @@
+<!doctype html>
+<html>
+
+<head>
+	<title>Track & Tale - Create Your Own Stories</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+	<style>
+		body {
+			margin: 0 auto;
+		}
+
+		#wrapper {
+			width: 100%;
+			float: left;
+		}
+
+		#header {
+			width: 100%;
+			float: left;
+			height: 517px;
+			background-image: url("images/header-i.jpg");
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+
+		.header-black {
+			background-color: #00000059;
+			width: 100%;
+			height: 517px;
+		}
+
+		.black {
+			float: left;
+			background-color: #00000070;
+			width: 100%;
+		}
+
+		.top {
+			float: left;
+			width: 100%;
+			background-color: #0000005e;
+			margin-top: -10px;
+		}
+
+		.top-contact {
+			width: 85%;
+			margin: auto;
+			height: 45px;
+		}
+
+		.contact {
+			float: right;
+			width: 41%;
+			color: white;
+			font-family: arial;
+		}
+
+		.contact ul li {
+			list-style: none;
+			display: inline-flex;
+			padding-left: 10px;
+		}
+
+		.contact ul li a {
+			text-decoration: none;
+			color: white;
+		}
+
+		.contact ul li a:hover {
+			color: #CC4D4D;
+		}
+
+		.contact .fas {
+			padding-right: 5px;
+			color: #CC4D4D;
+		}
+
+		.contact .fab {
+			padding-right: 5px;
+			color: #CC4D4D;
+		}
+
+		.head {
+			float: left;
+			width: 100%;
+			margin-top: -30px;
+		}
+
+		.head1 {
+			width: 85%;
+			margin: auto;
+		}
+
+		.logo {
+			float: left;
+			width: 30%;
+		}
+
+		.logoinner {
+			width: 75%;
+
+		}
+
+		.logo-i {
+			width: 50%;
+		}
+
+		.menu {
+			float: right;
+			width: 70%;
+			font-family: arial;
+		}
+
+		.menulist {
+			float: right;
+			margin: 36px -50px 0px 0px;
+		}
+
+		.menulist .fas {
+			font-size: 23px;
+			color: #CC4D4D;
+		}
+
+		ul.pages {
+			list-style: none;
+			display: inline-flex;
+			width: 100%;
+		}
+
+		ul.pages li {
+			padding: 0px 15px 0px 0px;
+		}
+
+		ul.pages li a {
+			text-decoration: none;
+			color: white;
+		}
+
+		ul.pages li a:hover {
+			color: #CC4D4D;
+		}
+
+		ul.submenu {
+			display: none;
+			list-style: none;
+			position: absolute;
+			background-color: #2c3640;
+			padding: 30px 20px 8px 20px;
+
+		}
+
+		ul.submenu li {
+			padding: 5px 0px;
+			width: 168px;
+			line-height: 22px;
+		}
+
+		ul.submenu li a {
+			color: #8d8895;
+		}
+
+		li.dropdown {
+			position: relative;
+		}
+
+		li.dropdown:hover .submenu {
+			display: block;
+		}
+
+		.headermain {
+			width: 100%;
+			float: left;
+			margin: 95px 0px;
+		}
+
+		.main {
+			width: 60%;
+			margin: auto;
+			color: white;
+			font-family: verdana;
+		}
+
+		.maina {
+			color: red;
+			font-size: 15px;
+		}
+
+		.mainb {
+			font-size: 55px;
+			margin: 0px 0px;
+		}
+
+		.mainc {
+			font-size: 18px;
+		}
+
+		.maind {
+			color: white;
+			font-size: 20px;
+			border: 2px solid white;
+			border-radius: 25px;
+			background-color: #CC4D4D;
+			padding: 10px 40px;
+			margin: 35px;
+		}
+
+		.maind:hover {
+			color: black;
+			background-color: white;
+		}
+
+		.feature {
+			float: left;
+			width: 100%;
+			background-color: #1f2933;
+			height: 137px;
+		}
+
+		.features {
+			width: 100%;
+			height: 106px;
+			margin-top: 21px;
+		}
+
+		.features li {
+			list-style: none;
+			display: inline-flex;
+			flex-direction: column;
+			padding: 0px 20px;
+			border-right: 1px solid black;
+			width: 11%;
+		}
+
+		.features li p {
+			text-align: center;
+		}
+
+		.features li p a {
+			text-decoration: none;
+			color: #26cf8e;
+		}
+
+		.features li p a:hover {
+			color: #CC4D4D;
+		}
+
+		.features i {
+			color: white;
+			font-size: 30px;
+			padding-bottom: 15px;
+		}
+
+		.popular {
+			width: 100%;
+			float: left;
+			background-color: #f5f7fa;
+			padding-bottom: 60px;
+		}
+
+		.pop1 {
+			width: 80%;
+			margin: auto;
+			text-align: center;
+			color: #1f2933;
+			font-size: 20px;
+			font-family: arial;
+			padding: 38px 0px;
+		}
+
+		.pop-content {
+			width: 90%;
+			margin: auto;
+		}
+
+		.heading a {
+			text-decoration: none;
+			color: #1f2933;
+			font-family: arial;
+		}
+
+		.heading a:hover {
+			color: #CC4D4D;
+		}
+
+		.info {
+			color: #1f2933;
+			font-family: arial;
+			font-size: 16px;
+		}
+
+		.pop2 {
+			width: 100%;
+			float: left;
+		}
+
+		.pop2-a {
+			float: left;
+			width: 33%;
+		}
+
+		.pop2-a1 {
+			background-image: url("images/Chadar-Trek.jpg");
+			width: 100%;
+			background-repeat: no-repeat;
+			background-size: cover;
+			height: 248px;
+			color: white;
+			font-family: arial;
+			font-size: 19px;
+		}
+
+		.pop2-b {
+			float: left;
+			width: 34%;
+		}
+
+		.pop2-b1 {
+			background-image: url("images/chardham.jpg");
+			width: 100%;
+			background-repeat: no-repeat;
+			background-size: cover;
+			height: 248px;
+			color: white;
+			font-family: arial;
+			font-size: 19px;
+		}
+
+		.pop2-c {
+			float: right;
+			width: 33%;
+		}
+
+		.pop2-c1 {
+			background-image: url("images/leh-to-srinagar.jpg");
+			width: 100%;
+			background-repeat: no-repeat;
+			background-size: cover;
+			height: 248px;
+			color: white;
+			font-family: arial;
+			font-size: 19px;
+		}
+
+		.pop3 {
+			width: 100%;
+			float: left;
+			margin-top: 30px;
+		}
+
+		.pop3-a {
+			float: left;
+			width: 33%;
+		}
+
+		.pop3-a1 {
+			background-image: url("images/Turtuk-travel.jpg");
+			width: 100%;
+			background-repeat: no-repeat;
+			background-size: cover;
+			height: 248px;
+			color: white;
+			font-family: arial;
+			font-size: 19px;
+		}
+
+		.pop3-b {
+			float: left;
+			width: 34%;
+		}
+
+		.pop3-b1 {
+			background-image: url("images/srinagar-via-manali.jpg");
+			width: 100%;
+			background-repeat: no-repeat;
+			background-size: cover;
+			height: 248px;
+			color: white;
+			font-family: arial;
+			font-size: 19px;
+		}
+
+		.pop3-c {
+			float: right;
+			width: 33%;
+		}
+
+		.pop3-c1 {
+			background-image: url("images/dal-lake-srinagar.jpg");
+			width: 100%;
+			background-repeat: no-repeat;
+			background-size: cover;
+			height: 248px;
+			color: white;
+			font-family: arial;
+			font-size: 19px;
+		}
+
+		.pop-img-head {
+			float: left;
+			width: 95%;
+			margin: 18px 0px 0px 18px;
+		}
+
+		.rating {
+			float: left;
+			width: 30%;
+		}
+
+		.img-info {
+			float: right;
+			width: 70%;
+			text-align: right;
+		}
+
+		.img-info p {
+			background-color: #323f4b;
+			padding-right: 12px;
+			margin-left: 80px;
+		}
+
+		.pop-img-foot {
+			float: left;
+			width: 100%;
+			margin: 88px 0px 0px 18px;
+		}
+
+		.p-price {
+			float: left;
+			width: 40%;
+		}
+
+		.link-explore {
+			float: left;
+			width: 50%;
+			text-align: right;
+			padding-top: 43px;
+		}
+
+		.link-explore a {
+			text-decoration: none;
+			color: white;
+		}
+
+		.link-explore a:hover {
+			color: #CC4D4D;
+		}
+
+		.inner {
+			width: 95%;
+			margin: auto;
+		}
+
+		.inner2 {
+			width: 92%;
+			margin: auto;
+		}
+
+		.pop-i {
+			width: 100%;
+		}
+
+		.block1 {
+			float: left;
+			width: 100%;
+			margin-top: 25px;
+		}
+
+		.top-d-head {
+			width: 70%;
+			margin: auto;
+			text-align: center;
+			color: #1f2933;
+			font-size: 20px;
+			font-family: arial;
+		}
+
+		.top-d-main {
+			margin: auto;
+			width: 90%;
+			text-align: center;
+			color: white;
+			font-family: arial;
+			font-size: 16px;
+		}
+
+		.top-d-main h1 {
+			padding-top: 140px;
+		}
+
+		.top-d1 {
+			float: left;
+			width: 33%;
+		}
+
+		.top-d2 {
+			float: left;
+			width: 34%;
+		}
+
+		.top-d3 {
+			float: right;
+			width: 33%;
+		}
+
+		.top-d1-inner {
+			background-image: url("images/himachal-i.jfif");
+			width: 95%;
+			background-repeat: no-repeat;
+			background-size: cover;
+			height: 254px;
+		}
+
+		.top-d2-inner {
+			background-image: url("images/karnataka-i.jpg");
+			width: 95%;
+			background-repeat: no-repeat;
+			background-size: cover;
+			height: 254px;
+		}
+
+		.top-d3-inner {
+			background-image: url("images/kerala-i.jpg");
+			width: 95%;
+			background-repeat: no-repeat;
+			background-size: cover;
+			height: 254px;
+		}
+
+		.best-seller {
+			float: left;
+			color: #1f2933;
+			font-family: arial;
+		}
+
+		.best-s-head {
+			margin: auto;
+			width: 70%;
+			text-align: center;
+			color: #1f2933;
+			font-size: 20px;
+			font-family: arial;
+			padding: 38px 0px;
+		}
+
+		.best-s-main1 {
+			margin: auto;
+			width: 90%;
+			height: 685px;
+		}
+
+		.best-s-main1 p a {
+			color: #9da2ac;
+			text-decoration: none;
+		}
+
+		.best-s-main1 p a:hover {
+			color: #CC4D4D;
+		}
+
+		.best1-s1 {
+			float: left;
+			width: 33%;
+		}
+
+		.best1-s2 {
+			float: left;
+			width: 34%;
+		}
+
+		.best1-s3 {
+			float: right;
+			width: 33%;
+		}
+
+		.best-s-main2 {
+			margin: auto;
+			width: 90%;
+			height: 685px;
+			margin-top: 35px;
+		}
+
+		.best-s-main2 p a {
+			color: #9da2ac;
+			text-decoration: none;
+		}
+
+		.best-s-main2 p a:hover {
+			color: #CC4D4D;
+		}
+
+		.block1 hr {
+			margin-top: 35px;
+		}
+
+		.best2-s1 {
+			float: left;
+			width: 33%;
+		}
+
+		.best2-s2 {
+			float: left;
+			width: 34%;
+		}
+
+		.best2-s3 {
+			float: right;
+			width: 33%;
+		}
+
+		.b1-s1-inner {
+			margin: auto;
+			width: 95%;
+		}
+
+		.b1-s2-inner {
+			margin: auto;
+			width: 95%;
+		}
+
+		.b1-s3-inner {
+			margin: auto;
+			width: 95%;
+		}
+
+		.b2-s1-inner {
+			margin: auto;
+			width: 95%;
+		}
+
+		.b2-s2-inner {
+			margin: auto;
+			width: 95%;
+		}
+
+		.b2-s3-inner {
+			margin: auto;
+			width: 95%;
+		}
+
+		.best-s {
+			transition: transform .2s;
+		}
+
+		.best-s img {
+			width: 100%;
+		}
+
+		.best-s:hover {
+			transform: scale(1.1);
+		}
+
+		.b1-s1-inner1 {
+			width: 100%;
+			background-repeat: no-repeat;
+			background-size: cover;
+			height: 248px;
+			overflow: hidden;
+		}
+
+		.b1-s2-inner1 {
+			width: 100%;
+			background-repeat: no-repeat;
+			background-size: cover;
+			height: 248px;
+			overflow: hidden;
+		}
+
+		.b1-s3-inner1 {
+			width: 100%;
+			background-repeat: no-repeat;
+			background-size: cover;
+			height: 248px;
+			overflow: hidden;
+		}
+
+		.b2-s1-inner1 {
+			width: 100%;
+			background-repeat: no-repeat;
+			background-size: cover;
+			height: 248px;
+			overflow: hidden;
+		}
+
+		.b2-s2-inner1 {
+			width: 100%;
+			background-repeat: no-repeat;
+			background-size: cover;
+			height: 248px;
+			overflow: hidden;
+		}
+
+		.b2-s3-inner1 {
+			width: 100%;
+			background-repeat: no-repeat;
+			background-size: cover;
+			height: 248px;
+			overflow: hidden;
+		}
+
+		button.explore {
+			border: none;
+			background-color: #252525;
+			color: white;
+			font-size: 18px;
+			padding: 12px 37px;
+			border-radius: 3px;
+		}
+
+		button.explore:hover {
+			background-color: #CC4D4D;
+		}
+
+		.price {
+			margin: auto;
+			width: 100%;
+		}
+
+		.price1 {
+			float: left;
+			width: 50%;
+		}
+
+		.price2 {
+			float: right;
+			width: 20%;
+			margin: 25px -8px;
+		}
+
+		.price2 i.fab {
+			font-size: 20px;
+			color: #7b8794;
+			padding-left: 10px;
+		}
+
+		.price2 i.fab.fa-facebook-f:hover {
+			color: #1977f3;
+		}
+
+		.price2 i.fab.fa-twitter:hover {
+			color: #1da1f2;
+		}
+
+		.mrp {
+
+			font-weight: bold;
+			font-size: 19px;
+		}
+
+		.mrp:hover {
+			color: #CC4D4D;
+		}
+
+		.why {
+			float: left;
+			width: 100%;
+			height: 490px;
+			background-color: #f5f7fa;
+			margin-top: 38px;
+		}
+
+		.w-head {
+			width: 70%;
+			margin: auto;
+			text-align: center;
+			color: #1f2933;
+			font-size: 20px;
+			font-family: arial;
+			padding-top: 38px;
+		}
+
+		.w-main {
+			width: 90%;
+			margin: auto;
+			color: #1f2933;
+			font-family: arial;
+			text-align: center;
+			margin-top: 50px;
+		}
+
+		.w-main1 {
+			width: 33%;
+			float: left;
+		}
+
+		.w-main2 {
+			width: 34%;
+			float: left;
+		}
+
+		.w-main3 {
+			width: 33%;
+			float: right;
+		}
+
+		.w-main-inner {
+			width: 90%;
+			margin: auto;
+		}
+
+		.w-main-inner h2 {
+			color: #3e4c59;
+		}
+
+		.partner {
+			width: 100%;
+			float: left;
+			height: 300px;
+			padding-top: 38px;
+		}
+
+		.p-head {
+			width: 70%;
+			margin: auto;
+			text-align: center;
+			color: #1f2933;
+			font-size: 20px;
+			font-family: arial;
+		}
+
+		.p-main {
+			width: 80%;
+			margin: auto;
+			margin-top: 50px;
+		}
+
+		.p-mian1 {
+			float: left;
+			width: 12.5%;
+		}
+
+		.p-mian2 {
+			float: left;
+			width: 12.5%;
+		}
+
+		.p-mian3 {
+			float: left;
+			width: 12.5%;
+		}
+
+		.p-mian4 {
+			float: left;
+			width: 12.5%;
+		}
+
+		.p-mian5 {
+			float: left;
+			width: 12.5%;
+		}
+
+		.p-mian6 {
+			float: left;
+			width: 12.5%;
+		}
+
+		.p-mian7 {
+			float: left;
+			width: 12.5%;
+		}
+
+		.p-mian8 {
+			float: right;
+			width: 12.5%;
+		}
+
+		.p-main-inner {
+			margin: auto;
+			width: 65%;
+		}
+
+		.p-main-inner img {
+			width: 100%;
+		}
+
+		.footer {
+			float: left;
+			width: 100%;
+			background-color: #1f2933;
+			margin-top: 38px;
+		}
+
+		.foot-all {
+			width: 90%;
+			margin: auto;
+			color: #cdd1d5;
+			font-family: arial;
+			margin-top: 40px;
+		}
+
+		.foot-all h2 {
+			color: white;
+		}
+
+		img.f-logo-i {
+			width: 54%;
+		}
+
+		.foot1 {
+			width: 25%;
+			float: left;
+		}
+
+		.foot2 {
+			width: 25%;
+			float: left;
+		}
+
+		.foot3 {
+			width: 25%;
+			float: left;
+		}
+
+		.foot4 {
+			width: 25%;
+			float: right;
+		}
+
+		.foot-inner {
+			width: 88%;
+			margin: auto;
+		}
+
+		.foot2 li {
+			list-style: none;
+			margin-bottom: 10px;
+		}
+
+		.foot3 li {
+			list-style: none;
+			margin-bottom: 12px;
+		}
+
+		.foot3 li a {
+			text-decoration: none;
+			color: white;
+			color: #cdd1d5;
+		}
+
+		.foot3 li a:hover {
+			color: #354656;
+		}
+
+		.bt-inner img {
+			width: 100%;
+		}
+
+		.best-tour {
+			width: 100%;
+			float: left;
+		}
+
+		.b-t1 {
+			width: 100%;
+			float: left;
+			margin-bottom: 20px;
+		}
+
+		.bt-inner1 {
+			width: 50%;
+			float: left;
+		}
+
+		.bt-inner2 {
+			width: 50%;
+			float: right;
+		}
+
+		.b-t2 {
+			width: 100%;
+			float: left;
+		}
+
+		.bt-inner {
+			width: 90%;
+		}
+
+		.social-icons {
+			float: right;
+			width: 100%;
+			margin: 112px -60px 0px 0px;
+			font-size: 32px;
+		}
+
+		.social-icons i {
+			padding-left: 30px;
+		}
+
+		.social-icons a {
+			color: white;
+		}
+
+		.social-icons a:hover {
+			color: #CC4D4D;
+		}
+
+		.foot-credit {
+			float: left;
+			width: 100%;
+			background-color: #323f4b;
+			font-family: arial;
+			color: #cdd1d5;
+			margin-top: 30px;
+			padding: 10px 0px;
+		}
+
+		.fcredit {
+			margin: auto;
+			width: 90%;
+		}
+
+		.credit {
+			float: left;
+			width: 40%;
+		}
+
+		.pages {
+			float: right;
+			width: 60%;
+		}
+
+		.pages a {
+			text-decoration: none;
+			color: #cdd1d5;
+		}
+
+		.pages a:hover {
+			color: #CC4D4D;
+		}
+	</style>
+</head>
+
+<body>
+	<div id="wrapper">
+		<div id="header">
+			<div class="header-black">
+				<div class="top">
+					<div class="top-contact">
+						<div class="contact">
+							<ul>
+								<li><i class="fab fa-whatsapp"></i> 9643420528</li>
+								<li><i class="fas fa-phone-alt"></i> 8627061105</li>
+								<li><a href="#"><i class="fas fa-envelope"></i> info@trackntale.com</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="head">
+						<div class="head1">
+							<div class="logo">
+								<div class="logoinner">
+									<a href="file:///E:/Rahul/Track-&-Tale/track&tale.html"><img class="logo-i"
+											src="images/logo-i.png" /></a>
+								</div>
+							</div>
+							<div class="menu">
+								<div class="menulist">
+									<ul class="pages">
+										<li><a href="/E:/Rahul/Track-&-Tale/track&tale.html"><i
+													class="fas fa-home"></i></a></li>
+										<li class="dropdown"><a href="#">DESTINATION</a>
+											<ul class="submenu">
+												<li><a href="#">HIMACHAL</a></li>
+												<li><a href="#">UTTRAKHAND</a></li>
+												<li><a href="#">RAJASTHAN</a></li>
+												<li><a href="#">KERALA</a></li>
+												<li><a href="#">ANDAMAN AND NICOBAR</a></li>
+												<li><a href="#">NORTH EAST</a></li>
+												<li><a href="#">KARNATKA</a></li>
+												<li><a href="#">KASHMIR</a></li>
+												<li><a href="#">LEH LADAKH</a></li>
+												<li><a href="#">SPITI</a></li>
+											</ul>
+										</li>
+										<li><a href="#">WEEKEND TRIPS</a></li>
+										<li class="dropdown"><a href="#">BIKE TRIPS</a>
+											<ul class="submenu">
+												<li><a href="#">LEH LADAKH</a></li>
+												<li><a href="#">RAJASTHAN RIDE</a></li>
+												<li><a href="#">SPITI VALLEY</a></li>
+											</ul>
+										</li>
+										<li class="dropdown"><a href="#">TREKS</a>
+											<ul class="submenu">
+												<li><a href="track&tale-treks-himachal-pradesh.html">HIMACHAL TREKS</a>
+												</li>
+												<li><a href="#">UTTRAKHAND TREKS</a></li>
+											</ul>
+										</li>
+										<li><a href="#">YATRA</a></li>
+										<li><a href="#">OUR TALES</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="headermain">
+					<div class="main">
+						<p class="maina">See the world never like before</p>
+						<h1 class="mainb">Track & Tale</h1>
+						<p class="mainc">Create Your Own Stories Here...</p>
+						<button class="maind">EXPLORE</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="feature">
+			<div class="features">
+
+				<li>
+					<p><a href="#"><i class="fas fa-umbrella-beach"></i><br>BEACHES</a></p>
+				</li>
+				<li>
+					<p><a href="#"><i class="fas fa-motorcycle"></i><br>BIKE TRIPS</a></p>
+				</li>
+				<li>
+					<p><a href="#"><i class="fas fa-plane"></i><br>DESTINATIONS</a></p>
+				</li>
+				<li>
+					<p><a href="#"><i class="fas fa-mountain"></i><br>MOUNTAINS</a></p>
+				</li>
+				<li>
+					<p><a href="#"><i class="fas fa-tree"></i><br>TREKS</a></p>
+				</li>
+				<li>
+					<p><a href="#"><i class="fas fa-wine-glass"></i><br>WEEKEND TRIPS</a></p>
+				</li>
+				<li style="border:none">
+					<p><a href="#"><i class="fas fa-gopuram"></i><br>YATRA</a></p>
+				</li>
+
+			</div>
+		</div>
+		<div class="popular">
+			<div class="pop1">
+				<h1>Polpular Tours</h1>
+				<p>we have a unique way to meeting your adventurous expections!</p>
+			</div>
+			<div class="pop-content">
+				<div class="pop2">
+					<div class="pop2-a">
+						<div class="inner">
+							<div class="pop2-a1">
+								<div class="black">
+									<div class="pop-img-head">
+										<div class="rating">
+											*****
+										</div>
+										<div class="img-info">
+											<p>8 Days 7 Nights</p>
+										</div>
+									</div>
+									<div class="pop-img-foot">
+										<div class="p-price">
+											<p><i>from</i><br /><b>₹18,000.00</b></p>
+										</div>
+										<div class="link-explore">
+											<b><a href="#">EXPLORE</a></b>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="pop2-a2">
+								<h2 class="heading"><a href="#">Chadar Trek Frozen River</a></h2>
+								<p class="info">Chadar Trek Frozen River The journey start at the mountain town of Leh.
+									The only way to reach Leh is by flight and it is surrounded by snow giving it...</p>
+							</div>
+						</div>
+					</div>
+					<div class="pop2-b">
+						<div class="inner2">
+							<div class="pop2-b1">
+								<div class="black">
+									<div class="pop-img-head">
+										<div class="rating">
+											*****
+										</div>
+										<div class="img-info">
+											<p>12 Days 11 Nights</p>
+										</div>
+									</div>
+									<div class="pop-img-foot">
+										<div class="p-price">
+											<p><i>from</i><br /><b>₹38,000.00</b></p>
+										</div>
+										<div class="link-explore">
+											<b><a href="#">EXPLORE</a></b>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="pop2-b2">
+								<h2 class="heading"><a href="#">Char Dham Yatra</a></h2>
+								<p class="info">Char Dham Yatra Char Dham means Four Dhams i.e. Four religious places.
+									Char Dham in Uttrakhand is a collective terms used for religious circuit covering
+									Holy hindu pilgrimage centers of...</p>
+							</div>
+						</div>
+					</div>
+					<div class="pop2-c">
+						<div class="inner">
+							<div class="pop2-c1">
+								<div class="black">
+									<div class="pop-img-head">
+										<div class="rating">
+											*****
+										</div>
+										<div class="img-info">
+											<p>7 Nights & 8 Days</p>
+										</div>
+									</div>
+									<div class="pop-img-foot">
+										<div class="p-price">
+											<p><i>from</i><br /><b>₹26,500.00</b></p>
+										</div>
+										<div class="link-explore">
+											<b><a href="#">EXPLORE</a></b>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="pop2-c2">
+								<h2 class="heading"><a href="#">Package from Leh to Srinagar | 8 Days</a></h2>
+								<p class="info">Package from Leh to Srinagar Stunning Gompas (Tibetian Buddhist
+									monasteries), fluttering prayer flags, whitewashed stupas, Ladakh is a riot of
+									intricate murals and red-robed monks. It is said that only...</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="pop3">
+					<div class="pop3-a">
+						<div class="inner">
+							<div class="pop3-a1">
+								<div class="black">
+									<div class="pop-img-head">
+										<div class="rating">
+											*****
+										</div>
+										<div class="img-info">
+											<p>6 Nights & 7 Days</p>
+										</div>
+									</div>
+									<div class="pop-img-foot">
+										<div class="p-price">
+											<p><i>from</i><br /><b>₹21,500.00</b></p>
+										</div>
+										<div class="link-explore">
+											<b><a href="#">EXPLORE</a></b>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="pop3-a2">
+								<h2 class="heading"><a href="#">Pakage to Leh via Turtuk | 7 Days</a></h2>
+								<p class="info">Wonderland of Turtuk, an unknown little hamlet, flanked by Nubra on one
+									side and Baltistan on the other, lies along the shores of Shyok River. An enigma in
+									itself, this…</p>
+							</div>
+						</div>
+					</div>
+					<div class="pop3-b">
+						<div class="inner2">
+							<div class="pop3-b1">
+								<div class="black">
+									<div class="pop-img-head">
+										<div class="rating">
+											*****
+										</div>
+										<div class="img-info">
+											<p style="margin-left:62px">11 Nights & 12 Days</p>
+										</div>
+									</div>
+									<div class="pop-img-foot">
+										<div class="p-price">
+											<p><i>from</i><br /><b>₹42,500.00</b></p>
+										</div>
+										<div class="link-explore">
+											<b><a href="#">EXPLORE</a></b>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="pop3-b2">
+								<h2 class="heading"><a href="#">Package to Srinagar via Manali & Leh | 12 Days</a></h2>
+								<p class="info">Package to Srinagar via Manali & Leh from Delhi Hokersar is a wetland
+									situated near Srinagar. Thousands of migratory birds come to Hokersar from Siberia
+									and other regions in the…</p>
+							</div>
+						</div>
+					</div>
+					<div class="pop3-c">
+						<div class="inner">
+							<div class="pop3-c1">
+								<div class="black">
+									<div class="pop-img-head">
+										<div class="rating">
+											*****
+										</div>
+										<div class="img-info">
+											<p style="margin-left:62px">11 Nights & 12 Days</p>
+										</div>
+									</div>
+									<div class="pop-img-foot">
+										<div class="p-price">
+											<p><i>from</i><br /><b>₹42,500.00</b></p>
+										</div>
+										<div class="link-explore">
+											<b><a href="#">EXPLORE</a></b>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="pop3-c2">
+								<h2 class="heading"><a href="#">Package from Srinagar via Leh & Manali to Delhi | 12
+										Days</a></h2>
+								<p class="info">Package to Srinagar via Manali & Leh from Delhi Hokersar is a wetland
+									situated near Srinagar. Thousands of migratory birds come to Hokersar from Siberia
+									and other regions in the…</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="block1">
+			<div class="top-destination">
+				<div class="top-d-head">
+					<h1>Top Destinations</h1>
+					<p>Find the best places around the world!</p>
+				</div>
+				<div class="top-d-main">
+					<div class="top-d1">
+						<div class="top-d1-inner">
+							<div class="black">
+								<h1>Himachal</h1>
+								<p>Cycling in Himachal mountain</p>
+							</div>
+						</div>
+					</div>
+					<div class="top-d2">
+						<div class="top-d2-inner">
+							<div class="black">
+								<h1>Karnataka</h1>
+								<p>Tour Packages</p>
+							</div>
+						</div>
+					</div>
+					<div class="top-d3">
+						<div class="top-d3-inner">
+							<div class="black">
+								<h1>Kerala</h1>
+								<p>In the streets of Sea</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="best-seller">
+				<div class="best-s-head">
+					<h2>Best Sellers of 2021</h2>
+					<p>Our collection of the most popular adventures.</p>
+				</div>
+				<div class="best-s-main1">
+					<div class="best1-s1">
+						<div class="b1-s1-inner">
+							<div class="b1-s1-inner1">
+								<div class="best-s">
+									<img src="images/Goa-visit-i.jpg" />
+								</div>
+							</div>
+							<div class="b1-s1-inner2">
+								<h2 class="heading"><a href="#">3 Amazing Days in Goa</a></h2>
+								<p><a href="#">Beaches,</a> <a href="#">Bike Trips,</a> <a href="#">Destinations,</a> <a
+										href="#">Weekend Trips</a><br /><br /><i class="fas fa-compass"></i> 4
+									Activities</p>
+								<hr />
+								<p>Goa, the pocket-sized state of the Indian subcontinent is a delightful cocktail of
+									picturesque beaches, quaint heritage spots, lively markets, casinos, clubs and
+									exquisite seafood. The state packs a unique punch for all its tourists, whether it
+									is serenity or…</p>
+								<button class="explore">Explore</button>
+								<hr />
+								<div class="price">
+									<div class="price1">
+										<p>From<br /><span class="mrp">₹25,999.00</span></p>
+									</div>
+									<div class="price2">
+										<a href="#"><i class="fab fa-facebook-f"></i></a>
+										<a href="#"><i class="fab fa-twitter"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="best1-s2">
+						<div class="b1-s2-inner">
+							<div class="b1-s2-inner1">
+								<div class="best-s">
+									<img src="images/rajasthan-visit-i.jpg" />
+								</div>
+							</div>
+							<div class="b1-s2-inner2">
+								<h2 class="heading"><a href="#">5 days trip to Rajasthan</a></h2>
+								<p><a href="#">Beaches,</a> <a href="#">Destinations,</a> <a href="#">Weekend Trips</a>
+									<a href="#">Yatra,</a><br /><br /><i class="fas fa-compass"></i> 4 Activities</p>
+								<hr />
+								<p>Rajasthan is the northwestern part of India. On your trip to Rajasthan, you will
+									explore the ancient history of Rajputi culture that has a great influence on India.
+									No wonder, the state is famous for its rich culture and heritage.…</p>
+								<button class="explore">Explore</button>
+								<hr />
+								<div class="price">
+									<div class="price1">
+										<p>From<br /><span class="mrp">₹19,000.00</span></p>
+									</div>
+									<div class="price2">
+										<a href="#"><i class="fab fa-facebook-f"></i></a>
+										<a href="#"><i class="fab fa-twitter"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="best1-s3">
+						<div class="b1-s3-inner">
+							<div class="b1-s3-inner1">
+								<div class="best-s">
+									<img src="images/sikkim-mountain-i.jpg" />
+								</div>
+							</div>
+							<div class="b1-s3-inner2">
+								<h2 class="heading"><a href="#">4 Nights- 5 Day Sikkim Tour</a></h2>
+								<p><a href="#">Beaches,</a> <a href="#">Destinations,</a> <a href="#">Weekend Trips</a>
+									<a href="#">Yatra,</a><br /><br /><i class="fas fa-compass"></i> 4 Activities</p>
+								<hr />
+								<p>The capital of Sikkim, Gangtok has been a favorite destination for tourists visiting
+									the state. There are many locations in and around the city that boast some major
+									attractions for the visitors. This package of four nights and five days…</p>
+								<button class="explore">Explore</button>
+								<hr />
+								<div class="price">
+									<div class="price1">
+										<p>From<br /><span class="mrp">₹28.000.00</span></p>
+									</div>
+									<div class="price2">
+										<a href="#"><i class="fab fa-facebook-f"></i></a>
+										<a href="#"><i class="fab fa-twitter"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="best-s-main2">
+					<div class="best2-s1">
+						<div class="b2-s1-inner">
+							<div class="b2-s1-inner1">
+								<div class="best-s">
+									<img src="images/Sikkim-visit-i.png" />
+								</div>
+							</div>
+							<div class="b2-s1-inner2">
+								<h2 class="heading"><a href="#">Classic 9 Days Sikkim Tourism</a><br /><br /></h2>
+								<p><a href="#">Beaches,</a> <a href="#">Bike Trips,</a> <a href="#">Destinations,</a> <a
+										href="#">Weekend Trips</a><br /><br /><i class="fas fa-compass"></i> 4
+									Activities</p>
+								<hr />
+								<p>Sikkim is a state with exquisite views, a spiritual aura and lofty forests. The
+									landscape has several tribes and their vibrant culture spreads throughout the state
+									leaving its essence on the visitors. This tour of nine days has been designed…</p>
+								<button class="explore">Explore</button>
+								<hr />
+								<div class="price">
+									<div class="price1">
+										<p>From<br /><span class="mrp">₹36,000.00</span></p>
+									</div>
+									<div class="price2">
+										<a href="#"><i class="fab fa-facebook-f"></i></a>
+										<a href="#"><i class="fab fa-twitter"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="best2-s2">
+						<div class="b2-s2-inner">
+							<div class="b2-s2-inner1">
+								<div class="best-s">
+									<img src="images/kedarnath-visit-i.jpg" />
+								</div>
+							</div>
+							<div class="b2-s2-inner2">
+								<h2 class="heading"><a href="#">12 Day Itinerary In Uttarakhand</a><br /><br /></h2>
+								<p><a href="#">Beaches,</a> <a href="#">Bike Trips,</a> <a href="#">Destinations,</a> <a
+										href="#">Weekend Trips</a><br /><br /><i class="fas fa-compass"></i> 4
+									Activities</p>
+								<hr />
+								<p>Uttarakhand is known for its spirituality, natural beauty and a place for adventure
+									as well. It is the best of both worlds for any traveller. The state is known as
+									Devbhumi as it offers a treat to eyes given the…</p>
+								<button class="explore">Explore</button>
+								<hr />
+								<div class="price">
+									<div class="price1">
+										<p>From<br /><span class="mrp">₹41,000.00</span></p>
+									</div>
+									<div class="price2">
+										<a href="#"><i class="fab fa-facebook-f"></i></a>
+										<a href="#"><i class="fab fa-twitter"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="best2-s3">
+						<div class="b2-s3-inner">
+							<div class="b2-s3-inner1">
+								<div class="best-s">
+									<img src="images/Uttarakhand-visit-i.jpg" />
+								</div>
+							</div>
+							<div class="b2-s3-inner2">
+								<h2 class="heading"><a href="#">Uttarakhand Lake Tour 05Nights 06 Days</a></h2>
+								<p><a href="#">Beaches,</a> <a href="#">Bike Trips,</a> <a href="#">Destinations,</a> <a
+										href="#">Weekend Trips</a><br /><br /><i class="fas fa-compass"></i> 4
+									Activities</p>
+								<hr />
+								<p>India is an extensive country with many such places that have yet to be discovered by
+									the public. Uttarakhand, known for its mist, lakes, and mountains, is a popular
+									tourist destination for nature lovers. Uttarakhand has a plethora of scenic…</p>
+								<button class="explore">Explore</button>
+								<hr />
+								<div class="price">
+									<div class="price1">
+										<p>From<br /><span class="mrp">₹28,000.00</span></p>
+									</div>
+									<div class="price2">
+										<a href="#"><i class="fab fa-facebook-f"></i></a>
+										<a href="#"><i class="fab fa-twitter"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="why">
+				<div class="w-head">
+					<h1>Why Track & Tale</h1>
+					<p>Well organized tours to Track & Tale your spirit!</p>
+				</div>
+				<div class="w-main">
+					<div class="w-main1">
+						<div class="w-main-inner">
+							<div class="w-image">
+								<img src="images/world-wide-package.svg" />
+							</div>
+							<div class="text">
+								<h2>World Wide Package</h2>
+								<p>Get best offers & deals on International Tour Packages at best prices</p>
+							</div>
+						</div>
+					</div>
+					<div class="w-main2">
+						<div class="w-main-inner">
+							<div class="w-image">
+								<img src="images/always-with-you.svg" />
+							</div>
+							<div class="text">
+								<h2>Always With You</h2>
+								<p>We Are Not Selling The Packages But We Care For You During The Packagee On Call By
+									24/7</p>
+							</div>
+						</div>
+					</div>
+					<div class="w-main3">
+						<div class="w-main-inner">
+							<div class="w-image">
+								<img src="images/premium-services.svg" />
+							</div>
+							<div class="text">
+								<h2>Premium Services</h2>
+								<p>We Provide The Best And Cheap Package As Per Your Needs</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="partner">
+				<div class="p-head">
+					<h1>PARTNER</h1>
+					<p>People who always support and endorse our good work</p>
+				</div>
+				<div class="p-main">
+					<marquee>
+						<div class="p-mian1">
+							<div class="p-main-inner">
+								<img src="images/iata-logo.png" />
+							</div>
+						</div>
+						<div class="p-mian2">
+							<div class="p-main-inner">
+								<img src="images/trip-advisor-i.png" />
+							</div>
+						</div>
+						<div class="p-mian3">
+							<div class="p-main-inner">
+								<img src="images/lab-gov-city-i.png" />
+							</div>
+						</div>
+						<div class="p-mian4">
+							<div class="p-main-inner">
+								<img src="images/travel-aware-i.png" />
+							</div>
+						</div>
+						<div class="p-mian5">
+							<div class="p-main-inner">
+								<img src="images/nigeria-tourism-i.png" />
+							</div>
+						</div>
+						<div class="p-mian6">
+							<div class="p-main-inner">
+								<img src="images/eco-tourism-australia-i.png" />
+							</div>
+						</div>
+						<div class="p-mian7">
+							<div class="p-main-inner">
+								<img src="images/trip-advisor-i.png" />
+							</div>
+						</div>
+						<div class="p-mian8">
+							<div class="p-main-inner">
+								<img src="images/iata-logo.png" />
+							</div>
+						</div>
+					</marquee>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<div class="foot-all">
+				<div class="foot1">
+					<div class="foot-inner">
+						<h2>About Us</h2>
+						<img src="images/logo-i.png" class="f-logo-i" />
+						<p>Track & Tale is a story based travel and Tours booking company that provide different Tour
+							Packages across the India. We provide services in Tour Travel Packages, Trekking Packages,
+							Honeymoon Packages, Bike Trips, Weekend Trips, Char Dham Yatra and Adventure Tours Packages
+							in affordable price. Track & Tale has covered with its diverse packages with great customers
+							services experience that you love to travel.</p>
+					</div>
+				</div>
+				<div class="foot2">
+					<div class="foot-inner">
+						<h2>Contact</h2>
+
+						<li><i class="fab fa-whatsapp"></i> 9643420528</li>
+						<li><i class="fas fa-phone-alt"></i> 8627061105</li>
+						<li><i class="fas fa-envelope"></i> sales@trackntale.com,<br />info@trackntale.com</li>
+						<li><i class="fas fa-map-marker-alt"></i> Village-Chhek, post office-Jhiralri, Tehsil-Barsar,
+							District-Hamirpur (H.P.)</li>
+
+					</div>
+				</div>
+				<div class="foot3">
+					<div class="foot-inner">
+						<h2>Top Destinations</h2>
+
+						<li><a href="#">Himachal</a></li>
+						<li><a href="#">Uttrakhand</a></li>
+						<li><a href="#">Rajasthan</a></li>
+						<li><a href="#">Goa</a></li>
+						<li><a href="#">Kerala</a></li>
+						<li><a href="#">Andaman And Nicobar</a></li>
+						<li><a href="#">Karnataka</a></li>
+						<li><a href="#">North East</a></li>
+						<li><a href="#">Kashmir</a></li>
+
+					</div>
+				</div>
+				<div class="foot4">
+					<div class="foot-inner">
+						<h2>Best Tour</h2>
+						<div class="best-tour">
+							<div class="b-t1">
+								<div class="bt-inner1">
+									<div class="bt-inner">
+										<a href="#"><img src="images/Chandratal-i.jpg" /></a>
+									</div>
+								</div>
+								<div class="bt-inner2">
+									<div class="bt-inner">
+										<a href="#"><img src="images/group-i.jpg" /></a>
+									</div>
+								</div>
+							</div>
+							<div class="b-t2">
+								<div class="bt-inner1">
+									<div class="bt-inner">
+										<a href="#"><img src="images/leh-to-srinagar.jpg" /></a>
+									</div>
+								</div>
+								<div class="bt-inner2">
+									<div class="bt-inner">
+										<a href="#"><img src="images/Leh-Tour-i.jpg" /></a>
+									</div>
+								</div>
+							</div>
+							<div class="social-icons">
+								<a href="#"><i class="fab fa-facebook-f"></i></a>
+								<a href="#"><i class="fab fa-instagram"></i></a>
+								<a href="#"><i class="fab fa-youtube"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="foot-credit">
+				<div class="fcredit">
+					<div class="credit">
+						<p>2021| All rights reserved - TRACK-&-TALE</p>
+					</div>
+					<div class="pages">
+						<p>
+							<a href="#">About Us |</a>
+							<a href="#">Privacy Policy |</a>
+							<a href="#">Terms & Conditions |</a>
+							<a href="#">Refund & Cancellation Policy |</a>
+							<a href="#">Disclaimer</a>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
