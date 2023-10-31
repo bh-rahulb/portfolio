@@ -70,7 +70,7 @@ function Contact() {
                                     <input type="text" name="email" placeholder='Email' className='flex-fill px-3' value={values.email} onChange={handleChange} onBlur={handleBlur} />
                                 </div>
                                 {errors.email && touched.email ? (<span style={{ color: "red" }}>{errors.email}</span>) : null}
-                                <textarea name='message' rows={4} placeholder='Your Message here...' className='form-control my-3 p-3' value={values.message} onChange={handleChange} onBlur={handleBlur}></textarea>
+                                <textarea name='message' placeholder='Your Message here...' rows={4} className='form-control my-3 p-3' value={values.message} onChange={handleChange} onBlur={handleBlur}></textarea>
                                 {errors.message && touched.message ? (<span style={{ color: "red" }}>{errors.message}</span>) : null}
                                 <div className="d-flex justify-content-center align-items-center my-2">
                                     <Button type='submit' variant='outline-warning' className='fs-6 fw-medium'>Send Message</Button>

@@ -1,3 +1,12 @@
+::placeholder,
+textarea::placeholder {
+    color: #ffc107 !important;
+}
+
+::-ms-input-placeholder {
+    color: #ffc107 !important;
+}
+
 .form-icon {
     color: #ffc107;
     width: 40px;
@@ -8,7 +17,6 @@
     border-right: 0px;
     font-size: 1.3rem;
 }
-
 
 .form-control {
     padding: 0;
