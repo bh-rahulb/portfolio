@@ -1,0 +1,813 @@
+<!doctype html>
+<html>
+<head>
+<title>Renroll - Bike & Scooter Rental Theme</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style-home.css"/>
+</head>
+<body>
+<div class="container-fluid px-0">
+	<!--<div class="row nav-contact">
+			<div class="col-md-6 row">
+				<div class="col-md-6">
+					<p>
+						<i class="fa-solid fa-square-phone-flip"></i> Call us 24/7 <a href="#">+1 755 302 8549</a>
+						<a href="#">Call me Back</a>
+					</p>
+				</div>
+				<div class="col-md-6">
+					<i class="fa-solid fa-square-envelope"></i> Email <a href="">support@example.com</a>
+				</div>
+			</div>
+			<div class="col-md-6 ">
+				<ul class="nav justify-content-end">
+					<li class="nav-item ">
+						<a class="nav-link" href="#"><i class="fa-brands fa-facebook-f"></i></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#"><i class="fa-brands fa-instagram"></i></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#"><i class="fa-brands fa-vk"></i></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#"><i class="fa-brands fa-telegram"></i></a>
+					</li>
+				</ul>
+			</div>
+		</div> -->
+		<div class="container">
+			<nav class="navbar navbar-expand-lg navbar-light py-2">
+				<div class="container-fluid my-navbar">
+					<button class="navbar-toggler float-start" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<a class="navbar-brand" href="#"><img src="images/logo-i.png"/></a>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav me-auto mb-2 mb-lg-0" style="font-weight:600">
+						<li class="nav-item px-2 dropdown">
+							<a class="nav-link active" href="#" aria-current="page" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">HOME</a>
+							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<li><a class="dropdown-item" href="#">Demo 1</a></li>
+								<li><a class="dropdown-item" href="#">Demo 2</a></li>
+								<li><a class="dropdown-item" href="#">Demo 3</a></li>
+								<li><a class="dropdown-item" href="#">Demo 4</a></li>
+							</ul>
+						</li>
+						<li class="nav-item px-2">
+							<a class="nav-link" href="#">ABOUT</a>
+						</li>
+						<li class="nav-item px-2 dropdown">
+							<a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">OUR-FLEET</a>
+							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<li><a class="dropdown-item" href="#">With Booking</a></li>
+								<li><a class="dropdown-item" href="#">Request Form</a></li>
+								<li><a class="dropdown-item" href="#">With Sidebar</a></li>
+								<li><a class="dropdown-item" href="#">Without Sidebar</a></li>
+							</ul>
+						</li>
+						<li class="nav-item px-2">
+							<a class="nav-link" href="#">NEWS</a>
+						</li>
+						<li class="nav-item px-2">
+							<a class="nav-link" href="#">CONTACT</a>
+						</li>
+					</ul>
+					<div class="d-flex">
+						<form class="d-flex ms-1">
+							<button class="btn" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+						</form>
+						<button class="btn btn-orr ms-4">Rent a bike <i class="fa-solid fa-arrow-right-long"></i></button>
+					</div>
+				</div>
+			</div>
+		</nav>
+	</div>
+	<div class="container-fluid px-0 bg-slide h-round">
+		<img class="w-60" src="images/slide2.png"/>
+		<div class="w-35 text-main">
+			<h1 class="text-light main-head">Your Bike When Need It Most</h1>
+			<div>
+				<button class="btn btn-outline-light btn-white"><i class="me-3 fa-solid fa-motorcycle"></i> Find a Bike</button>
+				<div class="bg-price p-5 text-light">
+					<p>As Low As ...</p>
+					<h1>$3/Day</h1>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<form class="row bg-light m-top py-4">
+				<div class="col-md-4 py-3">
+					<p class="search-head"><b>QUICK SEARCH</b></p>
+				</div>
+				<div class="col-md-3 py-3">
+					<p class="search-label">TYPE</p>
+						<select class="form-control bg-light search-input">
+							<option>All Types</option>
+							<option>Bicycle</option>
+							<option>Scooter</option>
+							<option>Moto</option>
+							<option>Electro</option>
+						</select>
+				</div>
+				<div class="col-md-3 py-3">
+					<p class="search-label">PICKUP DATE  —  RETURN DATE</p>
+						<input class="form-control bg-light search-input" type="date" required>
+				</div>
+				<div class="col-md-2 text-center pt-4">
+					<button class="btn btn-search"><i class="fa-solid fa-magnifying-glass"></i></button>
+				</div>
+		</form>
+	</div>
+	<div class="container my-5">
+		<div class="row">
+			<div class="col-md-6 my-2">
+				<img class="w-100" src="images/about-i.jpg"/>
+			</div>
+			<div class="col-md-6 my-2">
+				<h3 class="about-text">Easy bike rental service</h3>
+				<p class="mt-4 about-text">Consectetur adipisicing elit sed eiusmod tempor dolore magna aliqua minim veniam nostrud exercitation aliquip perspiciatis unde omnis iste natus error sit voluptatem ac ntium doloremque laudantiu.</p>
+				<p class="about-text">Atotam rem aperiam, erspiciatis unde omnis iste natus error sitperspiciatis unde omnis iste natus error voluptatem ac ntium doloremque laudantium eaqu ipsa quae abllo inventore ver et quasi architecto beatae vitae dicta sunt explicabo.</p>
+				<ul class="list-unstyled mt-6">
+				<b><li class="my-2"><i class="li-icon fa-regular fa-square-check"></i> Free booking cancellation up to 15 hours</li>
+					<li class="my-2"><i class="li-icon fa-regular fa-square-check"></i> We offer 24/7 road rental assistance</li>
+					<li class="my-2"><i class="li-icon fa-regular fa-square-check"></i> More than 350.000 satisfied customers</li>
+					<li class="my-2"><i class="li-icon fa-regular fa-square-check"></i> Fleet of over 8,000 brand new scooters & bikes</li></b>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="w-100 pt-5 bg-renting-fleet">
+		<div class="container text-center pb-3">
+			<img class="py-4" src="images/cycle-icon.png"/>
+			<h1>Our Renting Fleet</h1>
+			<p class="py-3">Look at available scooters & Bikes for you</p>
+		</div>
+		<ul class="justify-content-center tabs">
+			<li>
+				Bicycles
+			</li>|
+			<li>
+				Scooters
+			</li>|
+			<li>
+				Moto
+			</li>|
+			<li>
+				Electro
+			</li>
+		</ul>
+		<div id="carouselExampleControls" class="carousel slide w-crousel m-auto" data-bs-ride="carousel">
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<div class="row p-4">
+					<div class="col-md-6 my-3">
+						<div class="card p-2 m-auto c-card" style="width: 100%;">
+							<img src="images/bicycles/ninos-cliff.png" class="card-img-top" alt="...">
+							<div class="zoom-icon">
+								<i class="fa-solid fa-magnifying-glass"></i>
+							</div>
+							<div class="card-body">
+								<p>Model 2017</p>
+								<h5 class="card-title">Ninos Cliff 760</h5><hr>
+							<ul class="list-unstyled">
+								<li class="my-1"><i class="dis-icon fa-solid fa-gem"></i> Maximum comfort for urban mobility</li>
+								<li class="my-1"><i class="dis-icon fa-solid fa-people-group"></i> Ideal for group tours and long journeys</li>
+								<li class="my-1"><i class="dis-icon fa-solid fa-shield-halved"></i> Includes a security chain</li>
+								<li class="my-1"><i class="dis-icon fa-solid fa-star-of-life"></i> Powerful Brushes HUB 1000W engine</li>
+								<li class="my-1"><i class="dis-icon fa-solid fa-car-battery"></i> Battery life up to 60 Km</li>
+							</ul>
+							</div>
+							<div class="card-body">
+								<p>Rent from <span class="price-color">$20 / day</span></p>
+								<a href="#" class="btn btn-outline-primary w-100">Book now <i class="fa-solid fa-arrow-right-long"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 my-3">
+						<div class="card p-2 m-auto c-card" style="width: 100%;">
+							<img src="images/bicycles/cliff-lizard.png" class="card-img-top" alt="...">
+							<div class="zoom-icon">
+								<i class="fa-solid fa-magnifying-glass"></i>
+							</div>
+							<div class="card-body">
+								<p>Model 2017</p>
+								<h5 class="card-title">Cliff Lizard 240</h5><hr>
+							<ul class="list-unstyled">
+								<li class="my-1"><i class="dis-icon fa-solid fa-gem"></i> Maximum comfort for urban mobility</li>
+								<li class="my-1"><i class="dis-icon fa-solid fa-people-group"></i> Ideal for group tours and long journeys</li>
+								<li class="my-1"><i class="dis-icon fa-solid fa-shield-halved"></i> Includes a security chain</li>
+								<li class="my-1"><i class="dis-icon fa-solid fa-star-of-life"></i> Powerful Brushes HUB 1000W engine</li>
+								<li class="my-1"><i class="dis-icon fa-solid fa-car-battery"></i> Battery life up to 60 Km</li>
+							</ul>
+							</div>
+							<div class="card-body">
+								<p>Rent from <span class="price-color">$55 / day</span></p>
+								<a href="#" class="btn btn-outline-primary w-100">Book now <i class="fa-solid fa-arrow-right-long"></i></a>
+							</div>
+						</div>
+					</div>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<div class="row p-4">
+					<div class="col-md-6 my-3">
+						<div class="card p-2 m-auto c-card" style="width: 100%;">
+							<img src="images/bicycles/ninos-cliff.png" class="card-img-top" alt="...">
+							<div class="zoom-icon">
+								<i class="fa-solid fa-magnifying-glass"></i>
+							</div>
+							<div class="card-body">
+								<p>Model 2017</p>
+								<h5 class="card-title">Bianchi Intenso 700</h5><hr>
+							<ul class="list-unstyled">
+								<li class="my-1"><i class="dis-icon fa-solid fa-gem"></i> Maximum comfort for urban mobility</li>
+								<li class="my-1"><i class="dis-icon fa-solid fa-people-group"></i> Ideal for group tours and long journeys</li>
+								<li class="my-1"><i class="dis-icon fa-solid fa-shield-halved"></i> Includes a security chain</li>
+								<li class="my-1"><i class="dis-icon fa-solid fa-star-of-life"></i> Powerful Brushes HUB 1000W engine</li>
+								<li class="my-1"><i class="dis-icon fa-solid fa-car-battery"></i> Battery life up to 60 Km</li>
+							</ul>
+							</div>
+							<div class="card-body">
+								<p><span class="price-color">Price on request</span></p>
+								<a href="#" class="btn btn-outline-primary w-100">Book now <i class="fa-solid fa-arrow-right-long"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 my-3">
+						<div class="card p-2 m-auto c-card" style="width: 100%;">
+							<img src="images/bicycles/cliff-lizard.png" class="card-img-top" alt="...">
+							<div class="zoom-icon">
+								<i class="fa-solid fa-magnifying-glass"></i>
+							</div>
+							<div class="card-body">
+								<p>Model 2017</p>
+								<h5 class="card-title">Truta Scott Addict 300</h5><hr>
+							<ul class="list-unstyled">
+								<li class="my-1"><i class="dis-icon fa-solid fa-gem"></i> Maximum comfort for urban mobility</li>
+								<li class="my-1"><i class="dis-icon fa-solid fa-people-group"></i> Ideal for group tours and long journeys</li>
+								<li class="my-1"><i class="dis-icon fa-solid fa-shield-halved"></i> Includes a security chain</li>
+								<li class="my-1"><i class="dis-icon fa-solid fa-star-of-life"></i> Powerful Brushes HUB 1000W engine</li>
+								<li class="my-1"><i class="dis-icon fa-solid fa-car-battery"></i> Battery life up to 60 Km</li>
+							</ul>
+							</div>
+							<div class="card-body">
+								<p>Rent from <span class="price-color">$95 / day</span></p>
+								<a href="#" class="btn btn-outline-primary w-100">Book now <i class="fa-solid fa-arrow-right-long"></i></a>
+							</div>
+						</div>
+					</div>
+					</div>
+				</div>
+			</div>
+			<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"><i class="fa-solid fa-chevron-left"></i></span>
+				<span class="visually-hidden">Previous</span>
+			</button>
+			<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"><i class="fa-solid fa-chevron-right"></i></span>
+				<span class="visually-hidden">Next</span>
+			</button>
+		</div>
+	</div>
+	<div class="w-100 pt-5 bg-pricing h-round">
+		<div class="container text-center pb-3 text-light">
+			<h1>Our Pricing Includes</h1>
+			<p class="py-3">Bikes & electric scooters for renting at low prices</p>
+		</div>
+		<div class="w-90 py-5">
+			<ul class="row text-center">
+				<li class="col-md-2 pricing-icon m-first"><a href="#"><div><i class="fa-solid fa-helmet-safety"></i></div><div>Helmets</div></a></li>
+				<li class="col-md-2 pricing-icon m-second"><a href="#"><div><i class="fa-solid fa-headset"></i></div><div>Assistance</div></a></li>
+				<li class="col-md-2 pricing-icon m-third"><a href="#"><div><i class="fa-solid fa-shield-halved"></i></div><div>Insurance</div></a></li>
+				<li class="col-md-2 pricing-icon  m-third"><a href="#"><div><i class="fa-solid fa-xmark"></i></div><div>Cancellation</div></a></li>
+				<li class="col-md-2 pricing-icon m-second"><a href="#"><div><i class="fa-solid fa-percent"></i></div><div>Discounts</div></a></li>
+				<li class="col-md-2 pricing-icon m-first"><a href="#"><div><i class="fa-solid fa-road"></i></div><div>Full Routes</div></a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="w-100 pt-5 bg-feature">
+		<div class="container text-center pb-3">
+			<img class="py-4" src="images/cycle-icon.png"/>
+			<h1>Features of our Bikes</h1>
+			<p class="py-3">We offer bikes and electric scooters for renting at low prices</p>
+		</div>
+		<div id="carouselExampleCaptions" class="carousel slide w-crousel m-auto" data-bs-ride="carousel">
+			<div class="carousel-indicators">
+				<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+				<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+			</div>
+			<div class="carousel-inner">
+				<div class="carousel-item active" style="position:relative">
+					<img src="images/bicycles/feature-i.png" class="d-block w-90" alt="...">
+					<button type="button" class="btn-tip tip-luggage" data-bs-toggle="tooltip" data-bs-placement="top" title="Convinient Dual Luggage Hok"><i class="fa-solid fa-plus"></i>
+					</button>
+					<button type="button" class="btn-tip tip-start" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Easy Start System"><i class="fa-solid fa-plus"></i>
+					</button>
+					<button type="button" class="btn-tip tip-lamp" data-bs-toggle="tooltip" data-bs-placement="top" title="Chrome Head Lamp"><i class="fa-solid fa-plus"></i>
+					</button>
+					<button type="button" class="btn-tip tip-gaurd" data-bs-toggle="tooltip" data-bs-placement="top" title="Full Chain Gaurd"><i class="fa-solid fa-plus"></i>
+					</button>
+					<button type="button" class="btn-tip tip-mileage" data-bs-toggle="tooltip" data-bs-placement="top" title="SEP Technology- Best In Class Mileage"><i class="fa-solid fa-plus"></i>
+					</button>
+					<button type="button" class="btn-tip tip-light" data-bs-toggle="tooltip" data-bs-placement="top" title="Rear Light"><i class="fa-solid fa-plus"></i>
+					</button>
+					<div class="carousel-caption d-md-block caption-text">
+						<h5 class="mb-5" style="font-size:2rem">Diamond Frame 7-speed D</h5>
+						<ul class="list-unstyled feature-list justify-content-center" style="font-size:1rem">
+							<li class="me-2"><i class="me-1 fa-solid fa-caret-right"></i> Shimano MF-TZ20 7spd 14-28t</li>
+							<li class="me-2"><i class="me-1 fa-solid fa-caret-right"></i> Alloy, with Kraton black pads, reflectors</li>
+							<li><i class="me-1 fa-solid fa-caret-right"></i> Stainless steel 14G</li>
+						</ul>
+					</div>
+				</div>
+				<div class="carousel-item" style="position:relative">
+					<img src="images/bicycles/feature-i.png" class="d-block w-90" alt="...">
+					<button type="button" class="btn-tip tip-luggage" data-bs-toggle="tooltip" data-bs-placement="top" title="Convinient Dual Luggage Hok"><i class="fa-solid fa-plus"></i>
+					</button>
+					<button type="button" class="btn-tip tip-start" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Easy Start System"><i class="fa-solid fa-plus"></i>
+					</button>
+					<button type="button" class="btn-tip tip-lamp" data-bs-toggle="tooltip" data-bs-placement="top" title="Chrome Head Lamp"><i class="fa-solid fa-plus"></i>
+					</button>
+					<button type="button" class="btn-tip tip-gaurd" data-bs-toggle="tooltip" data-bs-placement="top" title="Full Chain Gaurd"><i class="fa-solid fa-plus"></i>
+					</button>
+					<button type="button" class="btn-tip tip-mileage" data-bs-toggle="tooltip" data-bs-placement="top" title="SEP Technology- Best In Class Mileage"><i class="fa-solid fa-plus"></i>
+					</button>
+					<button type="button" class="btn-tip tip-light" data-bs-toggle="tooltip" data-bs-placement="top" title="Rear Light"><i class="fa-solid fa-plus"></i>
+					</button>
+					<div class="carousel-caption d-md-block caption-text">
+						<h5 class="mb-5" style="font-size:2rem">Step Through 3 Internal</h5>
+						<ul class="list-unstyled feature-list justify-content-center" style="font-size:1rem">
+							<li class="me-2"><i class="me-1 fa-solid fa-caret-right"></i> Shimano MF-TZ20 7spd 14-28t</li>
+							<li class="me-2"><i class="me-1 fa-solid fa-caret-right"></i> Alloy, with Kraton black pads, reflectors</li>
+							<li><i class="me-1 fa-solid fa-caret-right"></i> Stainless steel 14G</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"><i class="fa-solid fa-chevron-left"></i></span>
+				<span class="visually-hidden">Previous</span>
+			</button>
+			<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"><i class="fa-solid fa-chevron-right"></i></span>
+				<span class="visually-hidden">Next</span>
+			</button>
+		</div>
+	</div>
+	<div class="w-100 mt-5 bg-counter">
+	<div class="overlay w-100">
+		<div class="container py-5">
+			<div class="row text-white px-5 mx-5">
+				<div class="col-md-4 my-4 px-1">
+					<div class="counter-icon text-succes">
+						<i class="fa-solid fa-motorcycle"></i>
+					</div>
+					<div class="counter-text d-flex">
+						<span class="count-num me-2"><b>3870</b></span><span class="py-3">SCOOTERS & BIKES</span>
+					</div>
+				</div>
+				<div class="col-md-4 my-4 px-1">
+					<div class="counter-icon text-succes">
+						<i class="fa-solid fa-helmet-safety"></i>
+					</div>
+					<div class="counter-text d-flex">
+						<span class="count-num me-2"><b>1260</b></span><span class="py-3">BOOKINGS SERVERD</span>
+					</div>
+				</div>
+				<div class="col-md-4 my-4 px-1">
+					<div class="counter-icon text-succes">
+						<i class="fa-solid fa-download"></i>
+					</div>
+					<div class="counter-text d-flex">
+						<span class="count-num me-2"><b>1420</b></span><span class="py-3">APP DOWNLOADS</span>
+					</div>
+				</div>
+			</div>
+			<div class="row text-white px-5 mx-5">
+				<div class="col-md-4 my-4 px-1">
+					<div class="counter-icon text-succes">
+						<i class="fa-solid fa-location-dot"></i>
+					</div>
+					<div class="counter-text d-flex">
+						<span class="count-num me-2"><b>229</b></span><span class="py-3">SERVICE LOCATIONS</span>
+					</div>
+				</div>
+				<div class="col-md-4 my-4 px-1">
+					<div class="counter-icon text-succes">
+						<i class="fa-solid fa-check-double"></i>
+					</div>
+					<div class="counter-text d-flex">
+						<span class="count-num me-2"><b>8400</b></span><span class="py-3">OFFERED SAVINGS</span>
+					</div>
+				</div>
+				<div class="col-md-4 my-4 px-1">
+					<div class="counter-icon text-succes">
+						<i class="fa-solid fa-people-group"></i>
+					</div>
+					<div class="counter-text d-flex">
+						<span class="count-num me-2"><b>6400</b></span><span class="py-3">HAPPY CUSTOMERS</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+	<div class="w-100 mt-5 bg-why-renroll">
+		<div class="container text-center pb-3">
+			<img class="py-4" src="images/cycle-icon.png"/>
+			<h1>Why Choose Renroll</h1>
+			<p class="py-3">Look at available Scooters & Bikes for you</p>
+		</div>
+		<div class="container" style="position:relative">
+			<div class="row">
+				<div class="col-md-6">
+					<div class="why-renroll-s my-3">
+						<p class="head"><b>Fully Insured Rental Service</b></p>
+						<p class="para">Tempore usmod incididunt labore lorem ipsum enim sed veniam</p>
+					</div>
+					<div class="why-renroll-s my-3 mt-5">
+						<p class="head"><b>Different Types of Bikes</b></p>
+						<p class="para">Labore tempore usmod incididunt lorem ipsum enim sed veniam</p>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="why-renroll-e my-3">
+						<p class="head"><b>Smart Mobility for Clients</b></p>
+						<p class="para">Labore tempore usmod incididunt lorem ipsum enim sed veniam</p>
+					</div>
+					<div class="why-renroll-e my-3 mt-5">
+						<p class="head"><b>Designed for Modern World</b></p>
+						<p class="para">Tempore usmod incididunt labore lorem ipsum enim sed veniam</p>
+					</div>
+				</div>
+			</div>
+			<div class="img-why-renroll">
+				<img class="d-block w-100" src="images/why-renroll.jpg"/>
+			</div>
+		</div>
+		<div class="container mt-5 " style="position:relative; bottom:0; z-index:99">
+			<div class="row text-white bg-call-us m-auto px-5 py-4">
+				<div class="col-md-5 my-3">
+					<div class="call-us_title">Call us to reserve your RV with us</div>
+					<div class="call-us_text"><b>7-234-567-8901</b></div>
+				</div>
+				<div class="col-md-2 my-3 call-us_or">
+					OR
+				</div>
+				<div class="col-md-5 my-3 py-2 px-4">
+					<button class="btn btn-outline-light btn-white" style="margin-top:0">Book Online Today <i class="fa-solid fa-arrow-right-long"></i></button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="w-100 pb-4 bg-experience h-round-top">
+		<div class="container text-center pb-3">
+			<img class="py-4" src="images/cycle-icon.png"/>
+			<h1>Share Your Experience</h1>
+		</div>
+		<div class="container">
+			<div class="m-auto w-60">
+				<div class="row">
+					<div class="col-md-4 my-2">
+						<div class="m-auto w-75">
+							<div class="share-circle">
+								<a href="#">fb.com/Renroll</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 my-2">
+						<div class="m-auto w-50">
+							<div class="share-circle">
+								<a href="#">@Renroll</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 my-2">
+						<div class="m-auto w-75">
+							<div class="share-circle">
+								<a href="#">tw.com/Renroll</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid my-5">
+			<div class="row">
+				<div class="col-6 col-md-3 my-3">
+					<a href="#"><img class="d-block w-100" src="images/exp-gallery/img-1.jpg"/></a>
+				</div>
+				<div class="col-6 col-md-3 my-3">
+					<a href="#"><img class="d-block w-100" src="images/exp-gallery/img-2.jpg"/></a>
+				</div>
+				<div class="col-6 col-md-3 my-3">
+					<a href="#"><img class="d-block w-100" src="images/exp-gallery/img-3.jpg"/></a>
+				</div>
+				<div class="col-6 col-md-3 my-3">
+					<a href="#"><img class="d-block w-100" src="images/exp-gallery/img-4.jpg"/></a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-6 col-md-3 my-3">
+					<a href="#"><img class="d-block w-100" src="images/exp-gallery/img-5.jpg"/></a>
+				</div>
+				<div class="col-6 col-md-3 my-3">
+					<a href="#"><img class="d-block w-100" src="images/exp-gallery/img-6.jpg"/></a>
+				</div>
+				<div class="col-6 col-md-3 my-3">
+					<a href="#"><img class="d-block w-100" src="images/exp-gallery/img-7.jpg"/></a>
+				</div>
+				<div class="col-6 col-md-3 my-3">
+					<a href="#"><img class="d-block w-100" src="images/exp-gallery/img-8.jpg"/></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="w-100 pt-5 bg-download">
+		<div class="container text-center text-light">
+			<img class="py-4" src="images/cycle-icon2.png"/>
+			<h1>Rent Faster, Better Experience</h1>
+			<p class="py-3">All our rental fleets are focused on providing you an amazing travel</p>
+		</div>
+		<div class="container">
+			<div class="row pb-5">
+				<div class="col-md-6 download-image" style="position:relative">
+					<img class="d-block download-img" src="images/download.png"/>					
+				</div>
+				<div class="col-md-6 text-white">
+					<div class="download-feature mt-5">
+						<div class="num">
+							<p><b>1</b></p>
+						</div>
+						<div class="dot">
+							<p><b>.</b></p>
+						</div>
+						<div class="text">
+							<p class="title"><b>Download Our App</b></p>
+							<p>Incididunt ut labore et dolore magna aliqua ust enim veniam quis nostrud.</p>
+						</div>
+					</div>
+					<div class="download-feature">
+						<div class="num">
+							<p><b>2</b></p>
+						</div>
+						<div class="dot">
+							<p><b>.</b>
+						</div>
+						<div class="text">
+							<p class="title"><b>Instant Rentals, Feel Good</b></p>
+							<p>Exercitation ullamco laboris nisi ut aliquip sed duis aute irure dolor in reprehend.</p>
+						</div>
+					</div>
+					<div class="download-feature">
+						<div class="num">
+							<p><b>3</b></p>
+						</div>
+						<div class="dot">
+							<p><b>.</b></p>
+						</div>
+						<div class="text">
+							<p class="title"><b>With GPS Support</b></p>
+							<p>Occaecat cupidatat non proident sunt clpa qui officia deserunt mollit.</p>
+						</div>
+					</div>
+					<div class="download-link row mt-5">
+						<div class="col-md-6 my-2 box">
+							<a href="#">
+								<img class="d-block w-100" src="images/bg-google-play.png"/>
+								<div class="text">
+									<div>Available on</div>
+									<b style="font-size:1.5rem">Google Play</b>
+								</div>
+							</a>
+						</div>
+						<div class="col-md-6 my-2 box">
+							<a href="#">
+								<img class="d-block w-100" src="images/bg-apple-store.png"/>
+								<div class="text">
+									<div>Available on</div>
+									<b style="font-size:1.5rem">Apple Store</b>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="w-100 pt-5 mt-5 bg-freedom">
+		<div class="container text-center pb-3">
+			<img class="py-4" src="images/cycle-icon.png"/>
+			<h1 class="w-50 m-auto">Flexibility, Agility & Freedom to go Anywhere, Anytime</h1>
+			<p class="py-3">Look at available scooters & Bikes for you</p>
+		</div>
+		<ul class="justify-content-center tabs">
+			<li>
+				Get Free Helmets
+			</li>|
+			<li>
+				No Parking Needed
+			</li>|
+			<li>
+				High Rating
+			</li>
+		</ul>
+		<div class="container w-75 my-5">
+			<div class="row">
+				<div class="col-md-6 my-2">
+					<img class="d-block w-100" src="images/free-helmets.jpg"/>
+				</div>
+				<div class="col-md-6 my-2">
+					<h4 class="text-dark mb-3 mt-5">Get Free Helmets</h4>
+					<p>Aiusmod tempor incididunt labore loremy enim veniams lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam quis.</p>
+					<p>Nostrud exercita aliquip ex ea consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="w-100 py-5 mt-5 bg-customers-say">
+		<div class="container text-center text-white pb-3">
+			<img class="py-4" src="images/cycle-icon.png"/>
+			<h1>Our Customers Say</h1>
+		</div>
+		<div id="carouselCustomersSay" class="carousel slide w-crousel m-auto" data-bs-ride="carousel">
+			<div class="carousel-inner text-center text-white">
+				<div class="carousel-item  active">
+					<p class="lh-lg">Aiusmod tempor incididunt labore loremy enim veniams lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam quis. Nostrud exercita aliquip ex ea consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.</p>
+					<i class="fa-solid fa-quote-left quote mb-3"></i>
+					<div>
+						<b style="font-size:1.2rem">Donald james</b></br>
+						Renrolls Rider
+					</div>
+					<p class="rating">
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-regular fa-star"></i>
+					</p>
+				</div>
+				<div class="carousel-item">
+					<p class="lh-lg">Aiusmod tempor incididunt labore loremy enim veniams lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam quis. Nostrud exercita aliquip ex ea consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.</p>
+					<i class="fa-solid fa-quote-left quote mb-3"></i>
+					<div>
+						<b style="font-size:1.2rem">Donald james</b></br>
+						Renrolls Rider
+					</div>
+					<p class="rating">
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-regular fa-star"></i>
+					</p>
+				</div>
+				<div class="carousel-item">
+					<p class="lh-lg">Aiusmod tempor incididunt labore loremy enim veniams lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam quis. Nostrud exercita aliquip ex ea consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.</p>
+					<i class="fa-solid fa-quote-left quote mb-3"></i>
+					<div>
+						<b style="font-size:1.2rem">Donald james</b></br>
+						Renrolls Rider
+					</div>
+					<p class="rating">
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-regular fa-star"></i>
+					</p>
+				</div>
+			</div>
+			<button class="carousel-control-prev" type="button" data-bs-target="#carouselCustomersSay" data-bs-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"><i class="fa-solid fa-chevron-left"></i></span>
+				<span class="visually-hidden">Previous</span>
+			</button>
+			<button class="carousel-control-next" type="button" data-bs-target="#carouselCustomersSay" data-bs-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"><i class="fa-solid fa-chevron-right"></i></span>
+				<span class="visually-hidden">Next</span>
+			</button>
+		</div>
+	</div>
+	<div class="w-100 pt-5 bg-news">
+		<div class="container text-center">
+			<img class="py-4" src="images/cycle-icon.png"/>
+			<h1>Renroll Latest News</h1>
+			<p class="py-3">Bikes & scooters for renting at lower prices</p>
+		</div>
+	</div>
+	<div class="w-100 py-5 bg-rent">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 my-2 text-white">
+					<div class="rent-img">
+						<i class="fa-solid fa-bicycle"></i>
+					</div>
+					<div class="rent-text pt-3">
+						<p><b>Are you looking for an affordable Bikes and Scooters rental Service?</b></p>
+					</div>
+				</div>
+				<div class="col-md-4  pt-4 my-2 text-center">
+					<button class="btn btn-orr">Rent it Now <i class="fa-solid fa-arrow-right-long"></i></button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="w-100 py-5 bg-footer">
+		<div class="row mx-3">
+			<div class="col-md-4 my-2">
+				<div class="footer-logo-img my-2">
+					<img src="images/footer-logo.svg"/>
+				</div>
+				<div class="footer-text w-75 my-5">
+					<p>Ceipisicing elit sed do eiusmod tempor laboe dolore magna aliqa Ut enim ad minim veniam quis nostrud exercitation ullam co laboris nis aliquip comsecd sed ipsum.</p>
+				</div>
+				<ul class="list-unstyled d-flex">
+					<li class="footer-icon me-3"><a href="#"><i class="fa-brands fa-square-facebook"></i></a></li>
+					<li class="footer-icon me-3"><a href="#"><i class="fa-brands fa-square-instagram"></i></a></li>
+					<li class="footer-icon me-3"><a href="#"><i class="fa-brands fa-vk"></i></a></li>
+					<li class="footer-icon"><a href="#"><i class="fa-brands fa-telegram"></i></a></li>
+				</ul>
+			</div>
+			<div class="col-md-3 my-2">
+				<h5 class="text-white my-2 pb-4">Our Locations</h5>
+				<p class="text-white mb-4">Big Pyramid Avenue</p>
+				<p class="mb-4">105 BellSouth Street, Madrid</br>+820-987-2365</p>
+				<p class="text-white mb-4">Enclave Tour Spot</p>
+				<p class="mb-4">105 BellSouth Street, Madrid</br>+820-987-2365</p>
+				<p class="text-white mb-4">Lesiure Town Park</p>
+				<p>105 BellSouth Street, Madrid</br>+820-987-2365</p>
+			</div>
+			<div class="col-md-2 my-2">
+				<h5 class="text-white my-2 pb-4">About Renroll</h5>
+				<ul class="list-unstyled about-list">
+					<li>
+						<a class="d-block my-1" href="#"><i class="fa-solid fa-chevron-right me-2 text-white"></i>Contact Us</a>
+					</li>
+					<li>
+						<a class="d-block my-1" href="#"><i class="fa-solid fa-chevron-right me-2 text-white"></i>Services</a>
+					</li>
+					<li>
+						<a class="d-block my-1" href="#"><i class="fa-solid fa-chevron-right me-2 text-white"></i>Rent a Bike</a>
+					</li>
+					<li>
+						<a class="d-block my-1" href="#"><i class="fa-solid fa-chevron-right me-2 text-white"></i>Rent a Scooter</a>
+					</li>
+					<li>
+						<a class="d-block my-1" href="#"><i class="fa-solid fa-chevron-right me-2 text-white"></i>Read FAQs</a>
+					</li>
+					<li>
+						<a class="d-block my-1" href="#"><i class="fa-solid fa-chevron-right me-2 text-white"></i>Our Fleet</a>
+					</li>
+					<li>
+						<a class="d-block my-1" href="#"><i class="fa-solid fa-chevron-right me-2 text-white"></i>Terms & Conditions</a>
+					</li>
+					<li>
+						<a class="d-block my-1" href="#"><i class="fa-solid fa-chevron-right me-2 text-white"></i>Our Pricing</a>
+					</li>
+				</ul>
+			</div>
+			<div class="col-md-3 my-2">
+				<h5 class="text-white my-2 pb-4">Get in Touch</h5>
+				<ul class="list-unstyled address-list">
+					<li class="d-block my-1">
+						<i class="fa-solid fa-location-dot me-2 text-white"></i>105 BellSouth Street, BR, United States
+					</li>
+					<li>
+						<a class="d-block my-1" href="#"><i class="fa-regular fa-envelope me-2 text-white"></i>support@renroll.com</a>
+					</li>
+					<li class="d-block my-1">
+						<i class="fa-solid fa-headset me-2 text-white"></i>Phone:<span  style="color:#fff">+1 755 302 8549</span>
+					</li>
+				</ul>
+				<div class="subscribe">
+					<h5 class="text-white  mt-5 my-2 pb-4">Subscribe Newsletter</h5>
+					<form class="form-newsletter">
+						<div class="form-input float-start">
+							<input type="email" placeholder="your email address"/>
+						</div>
+						<div class="btn-submit float-end text-center">
+							<button type="submit"><i class="fa-regular fa-envelope-open"></i></button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="w-100 text-center text-white line-bottom p-5">
+			<p>© 2022 Renroll - Scooters & Bikes Rental. All rights reserved.</p>
+		</div>
+	</div>
+</div>
+<script>
+	var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+  return new bootstrap.Tooltip(tooltipTriggerEl)
+})
+</script>
+</body>
+</html>
