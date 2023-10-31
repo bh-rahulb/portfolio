@@ -6,8 +6,8 @@ export const project = {
             "HTML",
             "CSS"
         ],
-        liveUrl: "https://bh-rahulb.github.io/Projects/Track-&-Tale/track&tale.html",
-        githubUrl: "https://github.com/bh-rahulb/Projects/tree/main/Track-%26-Tale"
+        liveUrl: "https://bh-rahul.github.io/Projects/Track-&-Tale/track&tale.html",
+        githubUrl: "https://github.com/bh-rahulb/portfolio/tree/track-tale"
     },
     gioGaming: {
         title: "GIO Gaming",
@@ -16,8 +16,8 @@ export const project = {
             "HTML",
             "CSS"
         ],
-        liveUrl: "https://bh-rahulb.github.io/Projects/GIO/gio.html",
-        githubUrl: "https://github.com/bh-rahulb/Projects/tree/main/GIO"
+        liveUrl: "https://bh-rahul.github.io/Projects/GIO/gio.html",
+        githubUrl: "https://github.com/bh-rahulb/portfolio/tree/gio"
     },
     webcodeft: {
         title: "Webcodeft",
@@ -27,8 +27,8 @@ export const project = {
             "CSS",
             "JavaScript"
         ],
-        liveUrl: "https://bh-rahulb.github.io/Projects/Webcodeft/webcodeft-home.html",
-        githubUrl: "https://github.com/bh-rahulb/Projects/tree/main/Webcodeft"
+        liveUrl: "https://bh-rahul.github.io/Projects/Webcodeft/webcodeft-home.html",
+        githubUrl: "https://github.com/bh-rahulb/portfolio/tree/webcodeft"
     },
     spinnyVehicle: {
         title: "Spinny Vehicles",
@@ -37,8 +37,8 @@ export const project = {
             "HTML",
             "CSS"
         ],
-        liveUrl: "https://bh-rahulb.github.io/Projects/Spinny/spinny-home.html",
-        githubUrl: "https://github.com/bh-rahulb/Projects/tree/main/Spinny"
+        liveUrl: "https://bh-rahul.github.io/Projects/Spinny/spinny-home.html",
+        githubUrl: "https://github.com/bh-rahulb/portfolio/tree/spinny"
     },
     oneStop: {
         title: "One Stop Medical",
@@ -48,8 +48,8 @@ export const project = {
             "CSS",
             "JavaScript"
         ],
-        liveUrl: "https://bh-rahulb.github.io/Projects/OneStop/onestop-home.html",
-        githubUrl: "https://github.com/bh-rahulb/Projects/tree/main/OneStop"
+        liveUrl: "https://bh-rahul.github.io/Projects/OneStop/onestop-home.html",
+        githubUrl: "https://github.com/bh-rahulb/portfolio/tree/onestop"
     },
     watches: {
         title: "Watches eCommerce",
@@ -59,8 +59,8 @@ export const project = {
             "CSS",
             "JavaScript"
         ],
-        liveUrl: "https://bh-rahulb.github.io/Projects/Watches/watches-home.html",
-        githubUrl: "https://github.com/bh-rahulb/Projects/tree/main/Watches"
+        liveUrl: "https://bh-rahul.github.io/Projects/Watches/watches-home.html",
+        githubUrl: "https://github.com/bh-rahulb/portfolio/tree/watches"
     },
     renroll: {
         title: "Renroll",
@@ -71,8 +71,8 @@ export const project = {
             "JavaScript",
             "Bootstrap"
         ],
-        liveUrl: "https://bh-rahulb.github.io/Projects/RenRoll/renroll-home.html",
-        githubUrl: "https://github.com/bh-rahulb/Projects/tree/main/RenRoll"
+        liveUrl: "https://bh-rahul.github.io/Projects/RenRoll/renroll-home.html",
+        githubUrl: "https://github.com/bh-rahulb/portfolio/tree/renroll"
     },
     mtbHamirpur: {
         title: "MTB - Hamirpur",
@@ -83,8 +83,8 @@ export const project = {
             "JavaScript",
             "Bootstrap"
         ],
-        liveUrl: "https://bh-rahulb.github.io/Projects/MTB-Hamirpur/MTB_Hamirpur-home.html",
-        githubUrl: "https://github.com/bh-rahulb/Projects/tree/main/MTB-Hamirpur"
+        liveUrl: "https://bh-rahul.github.io/Projects/MTB-Hamirpur/MTB_Hamirpur-home.html",
+        githubUrl: "https://github.com/bh-rahulb/portfolio/tree/mtb-hmr"
     },
     molla: {
         title: "Molla ecommerce",
@@ -95,8 +95,8 @@ export const project = {
             "JavaScript",
             "Bootstrap"
         ],
-        liveUrl: "https://bh-rahulb.github.io/Projects/Molla/molla-home.html",
-        githubUrl: "https://github.com/bh-rahulb/Projects/tree/main/Molla"
+        liveUrl: "https://bh-rahul.github.io/Projects/Molla/molla-home.html",
+        githubUrl: "https://github.com/bh-rahulb/portfolio/tree/molla"
     },
     lorada: {
         title: "Lorada eCommerce",
@@ -107,7 +107,7 @@ export const project = {
             "JavaScript",
             "Bootstrap"
         ],
-        liveUrl: "https://bh-rahulb.github.io/Projects/Lorada/index.html",
-        githubUrl: "https://github.com/bh-rahulb/Projects/tree/main/Lorada"
+        liveUrl: "https://bh-rahul.github.io/Projects/Lorada/index.html",
+        githubUrl: "https://github.com/bh-rahulb/portfolio/tree/lorada"
     }
 }
