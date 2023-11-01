@@ -15,11 +15,6 @@ a {
   text-decoration: none;
 }
 
-html {
-  overflow: hidden;
-  overflow-y: scroll;
-}
-
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -48,6 +43,10 @@ h6,
 .h5 {
   font-family: 'Roboto Slab', serif;
   color: aliceblue;
+}
+
+section {
+  overflow-x: hidden;
 }
 
 header,
