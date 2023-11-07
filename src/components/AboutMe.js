@@ -1,8 +1,9 @@
 import React from 'react'
 import { faFile } from '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { Button, Col, Container, Row } from 'react-bootstrap'
+import { Col, Container, Row } from 'react-bootstrap'
 import aboutImg from '../assets/images/about_art.jpg'
+import rahulCV from '../assets/Rahul_CV.pdf'
 
 function AboutMe() {
     return (
@@ -21,10 +22,10 @@ function AboutMe() {
                             Aside from that, my expertise in PHP and MySQL back-end development makes sure that data is managed effectively and functionality is smooth. I am an accomplished web designer and developer with an eye for design and a solid foundation in development.
                         </p>
                         <div className="d-flex justify-content-center mt-4 mb-5">
-                            <Button variant='outline-dark' className='fw-medium fs-6' data-aos="fade-up">
+                            <a className='btn btn-outline-dark fw-medium fs-6' data-aos="fade-up" href={rahulCV} download>
                                 <FontAwesomeIcon icon={faFile} beat className='me-2' />
-                                Download Resume
-                            </Button>
+                                Download CV
+                            </a>
                         </div>
                     </Col>
                     <Col sm={12} md={8} lg={6} className='my-2 m-auto d-flex justify-content-center align-items-center' data-aos="zoom-in">
