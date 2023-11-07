@@ -9,7 +9,7 @@ import Typewriter from 'typewriter-effect'
 function Intro() {
     return (
         <section id='Intro'>
-            <Container>
+            <Container className='py-3 py-lg-5'>
                 <Row>
                     <Col sm={12} md={8} lg={6} className='pt-5 pb-md-0 pb-lg-5 my-4' data-aos="zoom-in">
                         <div className='pt-5 pb-md-0 pb-lg-5 my-4'>
