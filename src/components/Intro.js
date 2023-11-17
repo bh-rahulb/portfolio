@@ -20,7 +20,7 @@ function Intro() {
                                 <Typewriter options={{ strings: ['Designer', 'Developer'], autoStart: true, loop: true, pauseFor: 3000, delay: 150, }} />
                             </h1>
                             <p className='pe-sm-2 pe-lg-4'>
-                                My skills as a web designer include HTML, CSS, Bootstrap, JavaScript, and ReactJS. It is in this field that I have developed my skills in creating websites that are both visually stunning and user-friendly.
+                                My skills as a web developer include HTML, CSS, Bootstrap, JavaScript, ReactJS, PHP, and MySQL. It is in this field that I have developed my skills in creating websites that are both visually stunning and user-friendly.
                             </p>
                             <Link to="Contact" spy={true} duration={800} className='btn btn-outline-warning fw-medium fs-6' data-aos="fade-up"><FontAwesomeIcon className="me-2" icon={faMessage} beat />Contact</Link>
                         </div>
