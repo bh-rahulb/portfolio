@@ -37,7 +37,7 @@ function NavigationBar() {
                         <a href="mailto:1103rahul@gmail.com" className="nav-icon d-flex justify-content-center align-items-center p-1">
                             <FontAwesomeIcon icon={faEnvelopeOpen} />
                         </a>
-                        <a href="/" target="_blank" rel="noopener noreferrer" className="nav-icon d-flex justify-content-center align-items-center p-1 fs-4">
+                        <a href="/" className="nav-icon d-flex justify-content-center align-items-center p-1 fs-4">
                             <FontAwesomeIcon icon={faWhatsapp} />
                         </a>
                     </div>
@@ -61,7 +61,7 @@ function NavigationBar() {
                             <a href="mailto:1103rahul@gmail.com" className="nav-icon d-flex justify-content-center align-items-center p-1">
                                 <FontAwesomeIcon icon={faEnvelopeOpen} />
                             </a>
-                            <a href="/" target="_blank" rel="noopener noreferrer" className="nav-icon d-flex justify-content-center align-items-center fs-4 p-1">
+                            <a href="/" className="nav-icon d-flex justify-content-center align-items-center fs-4 p-1">
                                 <FontAwesomeIcon icon={faWhatsapp} />
                             </a>
                         </div>
