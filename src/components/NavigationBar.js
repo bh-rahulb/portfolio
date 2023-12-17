@@ -31,13 +31,13 @@ function NavigationBar() {
                         <Link to="Contact" spy={true} duration={800} offset={-40} className='menu-link py-1'>Contact</Link>
                     </div>
                     <div className="nav-icon d-none d-lg-flex justify-content-center align-items-center gap-3 fs-5">
-                        <a href="tel:+91-70184-55406" className="nav-icon d-flex justify-content-center align-items-center p-1">
+                        <a href="/" className="nav-icon d-flex justify-content-center align-items-center p-1">
                             <FontAwesomeIcon icon={faPhone} />
                         </a>
                         <a href="mailto:1103rahul@gmail.com" className="nav-icon d-flex justify-content-center align-items-center p-1">
                             <FontAwesomeIcon icon={faEnvelopeOpen} />
                         </a>
-                        <a href="https://wa.me/+917018455406" target="_blank" rel="noopener noreferrer" className="nav-icon d-flex justify-content-center align-items-center p-1 fs-4">
+                        <a href="/" target="_blank" rel="noopener noreferrer" className="nav-icon d-flex justify-content-center align-items-center p-1 fs-4">
                             <FontAwesomeIcon icon={faWhatsapp} />
                         </a>
                     </div>
@@ -55,13 +55,13 @@ function NavigationBar() {
                             <Link to="Contact" spy={true} duration={800} offset={-290} className='collapse-menu-link rounded'>Contact</Link>
                         </div>
                         <div className="nav-icon d-flex gap-3 fs-5 pt-3">
-                            <a href="tel:+91-70184-55406" className="nav-icon d-flex justify-content-center align-items-center p-1">
+                            <a href="/" className="nav-icon d-flex justify-content-center align-items-center p-1">
                                 <FontAwesomeIcon icon={faPhone} />
                             </a>
                             <a href="mailto:1103rahul@gmail.com" className="nav-icon d-flex justify-content-center align-items-center p-1">
                                 <FontAwesomeIcon icon={faEnvelopeOpen} />
                             </a>
-                            <a href="https://wa.me/+917018455406" target="_blank" rel="noopener noreferrer" className="nav-icon d-flex justify-content-center align-items-center fs-4 p-1">
+                            <a href="/" target="_blank" rel="noopener noreferrer" className="nav-icon d-flex justify-content-center align-items-center fs-4 p-1">
                                 <FontAwesomeIcon icon={faWhatsapp} />
                             </a>
                         </div>
